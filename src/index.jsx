@@ -5,8 +5,8 @@ import { MainView } from "./components/main-view/main-view";
 import "./index.scss";
 
 
-// Main component
-const BacktoLifeApplication = () => {
+// Root component
+const BacktoLifeApp = () => {
     return (
         <Container fluid>
             <MainView />
@@ -19,4 +19,4 @@ const container = document.querySelector("#root");
 const root = createRoot(container);
 
 // Tells React to render app in the root DOM element
-root.render(<BacktoLifeApplication />);
+root.render(<BacktoLifeApp />);
