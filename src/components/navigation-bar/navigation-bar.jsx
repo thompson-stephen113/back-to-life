@@ -2,12 +2,6 @@ import { useState } from "react";
 import { Navbar, Container, Nav, Figure } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
-import { HomeView } from "../home-view/home-view";
-import { StaffView } from "../staff-view/staff-view";
-import { FormsView } from "../forms-view/forms-view";
-import { EduView } from "../edu-view/edu-view";
-import { MassageView } from "../massage-view/massage-view";
-import { ContactView } from "../contact-view/contact-view"
 import "./navigation-bar.scss";
 import logo from "../../../files/back-to-life.png";
 
@@ -28,49 +22,56 @@ export const NavigationBar = () => {
     };
 
     return (
-        <Navbar bg="light" expand="lg" expanded={expanded} onToggle={handleToggle}>
-            <Container>
-                <Navbar.Brand as={Link} to={HomeView} onClick={handleNav}>
-                    <Figure>
+        <Navbar bg="light" expand="lg" expanded={expanded} fixed="top" onToggle={handleToggle}>
+            <Container fluid>
+                {/* Business Logo */}
+                <Navbar.Brand as={Link} to="/" onClick={handleNav}>
+                    <Figure className="d-flex align-items-center">
                         <Figure.Image
                             src={logo}
+                            className="logo-img"
                             alt="logo"
                         />
                     </Figure>
                 </Navbar.Brand>
 
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                {/* Business Name */}
+                <span className="business-name">Back to Life Chiropractic Center</span>
 
+                {/* Toggles collapse behavior */}
+                <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={handleToggle} />
+
+                {/* Collapsing navbar */}
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
                         {/* Home Navigation Link */}
-                        <Nav.Link as={Link} to={HomeView} onClick={handleNav}>
-                            Home
+                        <Nav.Link as={Link} to="/" onClick={handleNav}>
+                            HOME
                         </Nav.Link>
 
                         {/* Staff Navigation Link */}
-                        <Nav.Link as={Link} to={StaffView} onClick={handleNav}>
-                            Meet Our Staff
+                        <Nav.Link as={Link} to="/about" onClick={handleNav}>
+                            ABOUT US
                         </Nav.Link>
 
                         {/* Patient Forms Navigation Link */}
-                        <Nav.Link as={Link} to={FormsView} onClick={handleNav}>
-                            New Patient Forms
+                        <Nav.Link as={Link} to="/new-patient-forms" onClick={handleNav}>
+                            NEW PATIENT FORMS
                         </Nav.Link>
 
                         {/* Patient Education Navigation Link */}
-                        <Nav.Link as={Link} to={EduView} onClick={handleNav}>
-                            Patient Education
+                        <Nav.Link as={Link} to="/patient-education" onClick={handleNav}>
+                            PATIENT EDUCATION
                         </Nav.Link>
 
                         {/* Massage Therapy Navigation Link */}
-                        <Nav.Link as={Link} to={MassageView} onClick={handleNav}>
-                            Massage Therapy
+                        <Nav.Link as={Link} to="/massage-therapy" onClick={handleNav}>
+                            MASSAGE THERAPY
                         </Nav.Link>
 
                         {/* Contact Navigation Link */}
-                        <Nav.Link as={Link} to={ContactView} onClick={handleNav}>
-                            Contact Us
+                        <Nav.Link as={Link} to="/contact-us" onClick={handleNav}>
+                            CONTACT US
                         </Nav.Link>
                     </Nav>
                 </Navbar.Collapse>

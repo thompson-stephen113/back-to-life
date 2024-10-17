@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { Row, Col, Container } from "react-bootstrap";
 
 import { HomeView } from "../home-view/home-view";
-import { StaffView } from "../staff-view/staff-view";
+import { AboutView } from "../about-view/about-view";
 import { FormsView } from "../forms-view/forms-view";
 import { EduView } from "../edu-view/edu-view";
 import { MassageView } from "../massage-view/massage-view";
@@ -16,69 +16,32 @@ export const MainView = () => {
         <BrowserRouter>
             <NavigationBar />
 
-            <Container>
+            <Container className="page-content">
                 <Row>
-                    <Routes>
-                        {/* Route to Home */}
-                        <Route
-                            path="/"
-                            element={
-                                <Col>
-                                    <HomeView />
-                                </Col>
-                            }
-                        />
+                    <Col>
+                        <Routes>
+                            {/* Route to Home */}
+                            <Route path="/" element={<HomeView />} />
 
-                        {/* Route to Staff */}
-                        <Route
-                            path="/meet-our-staff"
-                            element={
-                                <Col>
-                                    <StaffView />
-                                </Col>
-                            }
-                        />
+                            {/* Route to Staff */}
+                            <Route path="/about" element={<AboutView />} />
 
-                        {/* Route to Patient Forms */}
-                        <Route
-                            path="/new-patient-forms"
-                            element={
-                                <Col>
-                                    <FormsView />
-                                </Col>
-                            }
-                        />
+                            {/* Route to Patient Forms */}
+                            <Route path="/new-patient-forms" element={<FormsView />} />
 
-                        {/* Route to Patient Education */}
-                        <Route
-                            path="/patient-education"
-                            element={
-                                <Col>
-                                    <EduView />
-                                </Col>
-                            }
-                        />
+                            {/* Route to Patient Education */}
+                            <Route path="/patient-education" element={<EduView />} />
 
-                        {/* Route to Massage Therapy */}
-                        <Route
-                            path="massage-therapy"
-                            element={
-                                <Col>
-                                    <MassageView />
-                                </Col>
-                            }
-                        />
+                            {/* Route to Massage Therapy */}
+                            <Route path="/massage-therapy" element={<MassageView />} />
 
-                        {/* Route to Contact */}
-                        <Route
-                            path="contact-us"
-                            element={
-                                <Col>
-                                    <ContactView />
-                                </Col>
-                            }
-                        />
-                    </Routes>
+                            {/* Route to Contact */}
+                            <Route path="/contact-us" element={<ContactView />} />
+                        
+                            {/* Redirect invalid paths to Home */}
+                            <Route path="*" element={<Navigate to="/" />} />
+                        </Routes>
+                    </Col>
                 </Row>
             </Container>
         </BrowserRouter>

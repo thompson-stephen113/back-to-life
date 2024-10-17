@@ -2,5 +2,11 @@
 
 // ContactView
 export const ContactView = () => {
-    return
+    return (
+        <div className="contact-view">
+            <div>
+
+            </div>
+        </div>
+    )
 }

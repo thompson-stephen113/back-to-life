@@ -1,0 +1,48 @@
+// Fixes navbar at top
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1030;
+    background-color: #f8f9fa;
+    display: flex;
+    align-items: center;
+}
+
+// Adds margin to top of page contents
+.page-content {
+    margin-top: 80px;
+}
+
+// Pushes nav links to right of logo
+.navbar-nav {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+// Adjusts logo size
+.navbar-brand, .figure img {
+    height: 50px;
+    width: auto;
+}
+
+// Customizes link appearance
+.nav-link {
+    padding: 0 15px;
+    font-size: 1.1rem;
+}
+
+// Transitions navbar collapse
+.navbar-collapse {
+    transition: height 0.5s ease;
+}
+
+.navbar-toggler {
+    border-color: transparent;
+}
+
+// Customizes toggler icon appearance
+.navbar-toggler-icon {
+    color: #fff;
+}
