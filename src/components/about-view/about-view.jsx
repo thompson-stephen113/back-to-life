@@ -2,7 +2,7 @@
 export const AboutView = () => {
     return (
         <div className="about-view">
-            {/* About */}
+            {/* About Us */}
             <div className="about-info">
                 <h1>ABOUT US</h1>
                 
@@ -39,6 +39,7 @@ export const AboutView = () => {
                 </div>
             </div>
 
+            {/* Meet our Staff */}
             <div className="staff-info">
                 <h1>MEET OUR STAFF</h1>
 
