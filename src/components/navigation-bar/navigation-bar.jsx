@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Navbar, Container, Nav, Figure } from "react-bootstrap";
+import { Navbar, Container, Nav, Figure, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 import "./navigation-bar.scss";
@@ -36,7 +36,7 @@ export const NavigationBar = () => {
                 </Navbar.Brand>
 
                 {/* Business Name */}
-                <span className="business-name">Back to Life Chiropractic Center</span>
+                <span><Button className="business-name" as={Link} to="/">Back to Life Chiropractic Center</Button></span>
 
                 {/* Toggles collapse behavior */}
                 <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={handleToggle} />
