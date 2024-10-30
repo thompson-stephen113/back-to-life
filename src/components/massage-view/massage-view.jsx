@@ -2,7 +2,7 @@
 export const MassageView = () => {
     return (
         <div className="massage-view">
-            <h1>BENEFITS OF MASSAGE</h1>
+            <h1>MASSAGE THERAPY</h1>
 
             <p>Massage, like chiropractic, is based on the basic idea that the body has the ability to heal and regulate itself. Massage therapy mostly focuses on the muscle systems of the body. If muscles become imbalanced, shortened, or tightened, it can cause muscles on the opposing side of the body to become strained. This can cause pain, weakened circulation, and a multitude of other issues. Massage therapy stretches and softens the muscle groups to begin to correct the stress on the muscles.</p>
 

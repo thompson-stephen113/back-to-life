@@ -1,9 +1,9 @@
 import { useState } from "react";
-import { Navbar, Container, Nav, Figure, Button } from "react-bootstrap";
+import { Navbar, Container, Nav, Figure } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 import "./navigation-bar.scss";
-import logo from "../../../files/back-to-life.png";
+import logo from "../../../files/img/back-to-life.png";
 
 
 // NavigationBar Component
@@ -36,7 +36,10 @@ export const NavigationBar = () => {
                 </Navbar.Brand>
 
                 {/* Business Name */}
-                <span><Button className="business-name" as={Link} to="/">Back to Life Chiropractic Center</Button></span>
+                <a className="business-name" href="/">Back to Life Chiropractic Center</a>
+
+                {/* Phone Link */}
+                <a href="tel:706.882.5737" className="phone-link">706.882.5737</a>
 
                 {/* Toggles collapse behavior */}
                 <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={handleToggle} />
@@ -46,32 +49,32 @@ export const NavigationBar = () => {
                     <Nav className="me-auto">
                         {/* Home Navigation Link */}
                         <Nav.Link as={Link} to="/" onClick={handleNav}>
-                            HOME
+                            Home
                         </Nav.Link>
 
                         {/* Staff Navigation Link */}
                         <Nav.Link as={Link} to="/about" onClick={handleNav}>
-                            ABOUT US
+                            About Us
                         </Nav.Link>
 
                         {/* Patient Forms Navigation Link */}
                         <Nav.Link as={Link} to="/new-patient-forms" onClick={handleNav}>
-                            NEW PATIENT FORMS
+                            New Patient Forms
                         </Nav.Link>
 
                         {/* Patient Education Navigation Link */}
                         <Nav.Link as={Link} to="/patient-education" onClick={handleNav}>
-                            PATIENT EDUCATION
+                            Patient Education
                         </Nav.Link>
 
                         {/* Massage Therapy Navigation Link */}
                         <Nav.Link as={Link} to="/massage-therapy" onClick={handleNav}>
-                            MASSAGE THERAPY
+                            Massage Therapy
                         </Nav.Link>
 
                         {/* Contact Navigation Link */}
                         <Nav.Link as={Link} to="/contact-us" onClick={handleNav}>
-                            CONTACT US
+                            Contact Us
                         </Nav.Link>
                     </Nav>
                 </Navbar.Collapse>

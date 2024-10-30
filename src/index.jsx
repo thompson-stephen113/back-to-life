@@ -9,7 +9,7 @@ import "./index.scss";
 // Root component
 const BacktoLifeApp = () => {
     return (
-        <Container fluid>
+        <Container fluid className="my-app">
             <MainView />
         </Container>
     );

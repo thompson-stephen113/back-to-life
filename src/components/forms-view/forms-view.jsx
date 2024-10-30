@@ -4,7 +4,7 @@
 export const FormsView = () => {
     return (
         <div className="forms-view">
-            <h1>DOWNLOADS</h1>
+            <h1>NEW PATIENT FORMS</h1>
 
             
         </div>

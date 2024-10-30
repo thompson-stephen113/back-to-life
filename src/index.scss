@@ -1,0 +1,58 @@
+@import "~bootstrap/scss/bootstrap.scss";
+@import "~./components/navigation-bar/navigation-bar.scss";
+@import "~./components/home-view/home-view.scss";
+@import "~./components/about-view/about-view.scss";
+@import "~./components/forms-view/forms-view.scss";
+@import "~./components/edu-view/edu-view.scss";
+@import "~./components/massage-view/massage-view.scss";
+@import "~./components/contact-view/contact-view.scss";
+@import "~./components/main-view/main-view.scss";
+
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Roboto+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Roboto+Mono&display=swap");
+
+
+// Global Styles
+.my-app {
+    .col {
+        padding: 35px;
+        background-color: rgb(240, 240, 240);
+    }
+
+    h1, h2, p {
+        font-family: "Open Sans", arial, sans-serif;
+    }
+
+    h1, h2, h3 {
+        text-align: center;
+    }
+
+    h1 {
+        margin: 30px;
+    }
+
+    h2, h3 {
+        margin: auto auto 20px;
+    }
+
+    a {
+        font-size: larger;
+        color: black;
+        text-decoration: none;
+
+        &:focus {
+            color: black;
+        }
+
+        &:active {
+            color: black;
+        }        
+    }
+
+    .card {
+        margin: 15px 0 0;
+        padding: 10px;    
+        background-color: rgb(255, 255, 240);
+        border-radius: 0;    
+    }
+}

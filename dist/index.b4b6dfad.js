@@ -3054,6 +3054,7 @@ var _indexScss = require("./index.scss");
 const BacktoLifeApp = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Container), {
         fluid: true,
+        className: "my-app",
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _mainView.MainView), {}, void 0, false, {
             fileName: "src/index.jsx",
             lineNumber: 13,
@@ -27664,36 +27665,59 @@ var _toggleButtonGroupDefault = parcelHelpers.interopDefault(_toggleButtonGroup)
 var _tooltip = require("./Tooltip");
 var _tooltipDefault = parcelHelpers.interopDefault(_tooltip);
 
-},{"./Accordion":false,"./AccordionContext":false,"./AccordionCollapse":false,"./AccordionButton":false,"./AccordionBody":false,"./AccordionHeader":false,"./AccordionItem":false,"./Alert":false,"./AlertHeading":false,"./AlertLink":false,"./Anchor":false,"./Badge":false,"./Breadcrumb":false,"./BreadcrumbItem":false,"./Button":"aPzUt","./ButtonGroup":false,"./ButtonToolbar":false,"./Card":false,"./CardBody":false,"./CardFooter":false,"./CardGroup":false,"./CardHeader":false,"./CardImg":false,"./CardImgOverlay":false,"./CardLink":false,"./CardSubtitle":false,"./CardText":false,"./CardTitle":false,"./Carousel":false,"./CarouselCaption":false,"./CarouselItem":false,"./CloseButton":false,"./Col":"2L2I6","./Collapse":false,"./Container":"hEdsw","./Dropdown":false,"./DropdownButton":false,"./DropdownDivider":false,"./DropdownHeader":false,"./DropdownItem":false,"./DropdownItemText":false,"./DropdownMenu":false,"./DropdownToggle":false,"./Fade":false,"./Figure":"7Eckp","./FigureCaption":false,"./FigureImage":false,"./Form":false,"./FormControl":false,"./FormCheck":false,"./FormFloating":false,"./FloatingLabel":false,"./FormGroup":false,"./FormLabel":false,"./FormText":false,"./FormSelect":false,"./Image":false,"./InputGroup":false,"./ListGroup":false,"./ListGroupItem":false,"./Modal":false,"./ModalBody":false,"./ModalDialog":false,"./ModalFooter":false,"./ModalHeader":false,"./ModalTitle":false,"./Nav":"cXyL2","./Navbar":"1mHjo","./NavbarBrand":false,"./NavbarCollapse":false,"./NavbarOffcanvas":false,"./NavbarText":false,"./NavbarToggle":false,"./NavDropdown":false,"./NavItem":false,"./NavLink":false,"./Offcanvas":false,"./OffcanvasBody":false,"./OffcanvasHeader":false,"./OffcanvasTitle":false,"./OffcanvasToggling":false,"./Overlay":false,"./OverlayTrigger":false,"./PageItem":false,"./Pagination":false,"./Placeholder":false,"./PlaceholderButton":false,"./Popover":false,"./PopoverBody":false,"./PopoverHeader":false,"./ProgressBar":false,"./Ratio":false,"./Row":"cMC39","./Spinner":false,"./SplitButton":false,"./SSRProvider":false,"./Stack":false,"./Tab":false,"./TabContainer":false,"./TabContent":false,"./Table":false,"./TabPane":false,"./Tabs":false,"./ThemeProvider":false,"./Toast":false,"./ToastBody":false,"./ToastContainer":false,"./ToastHeader":false,"./ToggleButton":false,"./ToggleButtonGroup":false,"./Tooltip":false,"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"aPzUt":[function(require,module,exports) {
+},{"./Accordion":false,"./AccordionContext":false,"./AccordionCollapse":false,"./AccordionButton":false,"./AccordionBody":false,"./AccordionHeader":false,"./AccordionItem":false,"./Alert":false,"./AlertHeading":false,"./AlertLink":false,"./Anchor":false,"./Badge":false,"./Breadcrumb":false,"./BreadcrumbItem":false,"./Button":false,"./ButtonGroup":false,"./ButtonToolbar":false,"./Card":"lAynp","./CardBody":false,"./CardFooter":false,"./CardGroup":false,"./CardHeader":false,"./CardImg":false,"./CardImgOverlay":false,"./CardLink":false,"./CardSubtitle":false,"./CardText":false,"./CardTitle":false,"./Carousel":false,"./CarouselCaption":false,"./CarouselItem":false,"./CloseButton":false,"./Col":"2L2I6","./Collapse":false,"./Container":"hEdsw","./Dropdown":false,"./DropdownButton":false,"./DropdownDivider":false,"./DropdownHeader":false,"./DropdownItem":false,"./DropdownItemText":false,"./DropdownMenu":false,"./DropdownToggle":false,"./Fade":false,"./Figure":"7Eckp","./FigureCaption":false,"./FigureImage":false,"./Form":false,"./FormControl":false,"./FormCheck":false,"./FormFloating":false,"./FloatingLabel":false,"./FormGroup":false,"./FormLabel":false,"./FormText":false,"./FormSelect":false,"./Image":false,"./InputGroup":false,"./ListGroup":false,"./ListGroupItem":false,"./Modal":false,"./ModalBody":false,"./ModalDialog":false,"./ModalFooter":false,"./ModalHeader":false,"./ModalTitle":false,"./Nav":"cXyL2","./Navbar":"1mHjo","./NavbarBrand":false,"./NavbarCollapse":false,"./NavbarOffcanvas":false,"./NavbarText":false,"./NavbarToggle":false,"./NavDropdown":false,"./NavItem":false,"./NavLink":false,"./Offcanvas":false,"./OffcanvasBody":false,"./OffcanvasHeader":false,"./OffcanvasTitle":false,"./OffcanvasToggling":false,"./Overlay":false,"./OverlayTrigger":false,"./PageItem":false,"./Pagination":false,"./Placeholder":false,"./PlaceholderButton":false,"./Popover":false,"./PopoverBody":false,"./PopoverHeader":false,"./ProgressBar":false,"./Ratio":false,"./Row":"cMC39","./Spinner":false,"./SplitButton":false,"./SSRProvider":false,"./Stack":false,"./Tab":false,"./TabContainer":false,"./TabContent":false,"./Table":false,"./TabPane":false,"./Tabs":false,"./ThemeProvider":false,"./Toast":false,"./ToastBody":false,"./ToastContainer":false,"./ToastHeader":false,"./ToggleButton":false,"./ToggleButtonGroup":false,"./Tooltip":false,"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"lAynp":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
 var _classnamesDefault = parcelHelpers.interopDefault(_classnames);
 var _react = require("react");
-var _button = require("@restart/ui/Button");
 var _themeProvider = require("./ThemeProvider");
+var _cardBody = require("./CardBody");
+var _cardBodyDefault = parcelHelpers.interopDefault(_cardBody);
+var _cardFooter = require("./CardFooter");
+var _cardFooterDefault = parcelHelpers.interopDefault(_cardFooter);
+var _cardHeader = require("./CardHeader");
+var _cardHeaderDefault = parcelHelpers.interopDefault(_cardHeader);
+var _cardImg = require("./CardImg");
+var _cardImgDefault = parcelHelpers.interopDefault(_cardImg);
+var _cardImgOverlay = require("./CardImgOverlay");
+var _cardImgOverlayDefault = parcelHelpers.interopDefault(_cardImgOverlay);
+var _cardLink = require("./CardLink");
+var _cardLinkDefault = parcelHelpers.interopDefault(_cardLink);
+var _cardSubtitle = require("./CardSubtitle");
+var _cardSubtitleDefault = parcelHelpers.interopDefault(_cardSubtitle);
+var _cardText = require("./CardText");
+var _cardTextDefault = parcelHelpers.interopDefault(_cardText);
+var _cardTitle = require("./CardTitle");
+var _cardTitleDefault = parcelHelpers.interopDefault(_cardTitle);
 var _jsxRuntime = require("react/jsx-runtime");
 "use client";
-const Button = /*#__PURE__*/ _react.forwardRef(({ as, bsPrefix, variant = "primary", size, active = false, disabled = false, className, ...props }, ref)=>{
-    const prefix = (0, _themeProvider.useBootstrapPrefix)(bsPrefix, "btn");
-    const [buttonProps, { tagName }] = (0, _button.useButtonProps)({
-        tagName: as,
-        disabled,
-        ...props
-    });
-    const Component = tagName;
+const Card = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, className, bg, text, border, body = false, children, // Need to define the default "as" during prop destructuring to be compatible with styled-components github.com/react-bootstrap/react-bootstrap/issues/3595
+as: Component = "div", ...props }, ref)=>{
+    const prefix = (0, _themeProvider.useBootstrapPrefix)(bsPrefix, "card");
     return /*#__PURE__*/ (0, _jsxRuntime.jsx)(Component, {
-        ...buttonProps,
-        ...props,
         ref: ref,
-        disabled: disabled,
-        className: (0, _classnamesDefault.default)(className, prefix, active && "active", variant && `${prefix}-${variant}`, size && `${prefix}-${size}`, props.href && disabled && "disabled")
+        ...props,
+        className: (0, _classnamesDefault.default)(className, prefix, bg && `bg-${bg}`, text && `text-${text}`, border && `border-${border}`),
+        children: body ? /*#__PURE__*/ (0, _jsxRuntime.jsx)((0, _cardBodyDefault.default), {
+            children: children
+        }) : children
     });
 });
-Button.displayName = "Button";
-exports.default = Button;
+Card.displayName = "Card";
+exports.default = Object.assign(Card, {
+    Img: (0, _cardImgDefault.default),
+    Title: (0, _cardTitleDefault.default),
+    Subtitle: (0, _cardSubtitleDefault.default),
+    Body: (0, _cardBodyDefault.default),
+    Link: (0, _cardLinkDefault.default),
+    Text: (0, _cardTextDefault.default),
+    Header: (0, _cardHeaderDefault.default),
+    Footer: (0, _cardFooterDefault.default),
+    ImgOverlay: (0, _cardImgOverlayDefault.default)
+});
 
-},{"classnames":"jocGM","react":"21dqq","@restart/ui/Button":"8YUbR","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"jocGM":[function(require,module,exports) {
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./CardBody":"iN1Jc","./CardFooter":"jUi26","./CardHeader":"dXnnx","./CardImg":"1reTi","./CardImgOverlay":"Bi8dC","./CardLink":"9uFCo","./CardSubtitle":"i2BiN","./CardText":"aUUmg","./CardTitle":"79rSZ","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"jocGM":[function(require,module,exports) {
 /*!
 	Copyright (c) 2018 Jed Watson.
 	Licensed under the MIT License (MIT), see
@@ -27733,92 +27757,89 @@ exports.default = Button;
     else window.classNames = classNames;
 })();
 
-},{}],"8YUbR":[function(require,module,exports) {
+},{}],"dVixI":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "isTrivialHref", ()=>isTrivialHref);
-parcelHelpers.export(exports, "useButtonProps", ()=>useButtonProps);
+parcelHelpers.export(exports, "DEFAULT_BREAKPOINTS", ()=>DEFAULT_BREAKPOINTS);
+parcelHelpers.export(exports, "DEFAULT_MIN_BREAKPOINT", ()=>DEFAULT_MIN_BREAKPOINT);
+parcelHelpers.export(exports, "useBootstrapPrefix", ()=>useBootstrapPrefix);
+parcelHelpers.export(exports, "useBootstrapBreakpoints", ()=>useBootstrapBreakpoints);
+parcelHelpers.export(exports, "useBootstrapMinBreakpoint", ()=>useBootstrapMinBreakpoint);
+parcelHelpers.export(exports, "useIsRTL", ()=>useIsRTL);
+parcelHelpers.export(exports, "createBootstrapComponent", ()=>createBootstrapComponent);
+parcelHelpers.export(exports, "ThemeConsumer", ()=>Consumer);
 var _react = require("react");
 var _jsxRuntime = require("react/jsx-runtime");
-const _excluded = [
-    "as",
-    "disabled"
+"use client";
+const DEFAULT_BREAKPOINTS = [
+    "xxl",
+    "xl",
+    "lg",
+    "md",
+    "sm",
+    "xs"
 ];
-function _objectWithoutPropertiesLoose(r, e) {
-    if (null == r) return {};
-    var t = {};
-    for(var n in r)if (({}).hasOwnProperty.call(r, n)) {
-        if (e.indexOf(n) >= 0) continue;
-        t[n] = r[n];
-    }
-    return t;
-}
-function isTrivialHref(href) {
-    return !href || href.trim() === "#";
-}
-function useButtonProps({ tagName, disabled, href, target, rel, role, onClick, tabIndex = 0, type }) {
-    if (!tagName) {
-        if (href != null || target != null || rel != null) tagName = "a";
-        else tagName = "button";
-    }
-    const meta = {
-        tagName
-    };
-    if (tagName === "button") return [
-        {
-            type: type || "button",
-            disabled
-        },
-        meta
-    ];
-    const handleClick = (event)=>{
-        if (disabled || tagName === "a" && isTrivialHref(href)) event.preventDefault();
-        if (disabled) {
-            event.stopPropagation();
-            return;
-        }
-        onClick == null || onClick(event);
-    };
-    const handleKeyDown = (event)=>{
-        if (event.key === " ") {
-            event.preventDefault();
-            handleClick(event);
-        }
-    };
-    if (tagName === "a") {
-        // Ensure there's a href so Enter can trigger anchor button.
-        href || (href = "#");
-        if (disabled) href = undefined;
-    }
-    return [
-        {
-            role: role != null ? role : "button",
-            // explicitly undefined so that it overrides the props disabled in a spread
-            // e.g. <Tag {...props} {...hookProps} />
-            disabled: undefined,
-            tabIndex: disabled ? undefined : tabIndex,
-            href,
-            target: tagName === "a" ? target : undefined,
-            "aria-disabled": !disabled ? undefined : disabled,
-            rel: tagName === "a" ? rel : undefined,
-            onClick: handleClick,
-            onKeyDown: handleKeyDown
-        },
-        meta
-    ];
-}
-const Button = /*#__PURE__*/ _react.forwardRef((_ref, ref)=>{
-    let { as: asProp, disabled } = _ref, props = _objectWithoutPropertiesLoose(_ref, _excluded);
-    const [buttonProps, { tagName: Component }] = useButtonProps(Object.assign({
-        tagName: asProp,
-        disabled
-    }, props));
-    return /*#__PURE__*/ (0, _jsxRuntime.jsx)(Component, Object.assign({}, props, buttonProps, {
-        ref: ref
-    }));
+const DEFAULT_MIN_BREAKPOINT = "xs";
+const ThemeContext = /*#__PURE__*/ _react.createContext({
+    prefixes: {},
+    breakpoints: DEFAULT_BREAKPOINTS,
+    minBreakpoint: DEFAULT_MIN_BREAKPOINT
 });
-Button.displayName = "Button";
-exports.default = Button;
+const { Consumer, Provider } = ThemeContext;
+function ThemeProvider({ prefixes = {}, breakpoints = DEFAULT_BREAKPOINTS, minBreakpoint = DEFAULT_MIN_BREAKPOINT, dir, children }) {
+    const contextValue = (0, _react.useMemo)(()=>({
+            prefixes: {
+                ...prefixes
+            },
+            breakpoints,
+            minBreakpoint,
+            dir
+        }), [
+        prefixes,
+        breakpoints,
+        minBreakpoint,
+        dir
+    ]);
+    return /*#__PURE__*/ (0, _jsxRuntime.jsx)(Provider, {
+        value: contextValue,
+        children: children
+    });
+}
+function useBootstrapPrefix(prefix, defaultPrefix) {
+    const { prefixes } = (0, _react.useContext)(ThemeContext);
+    return prefix || prefixes[defaultPrefix] || defaultPrefix;
+}
+function useBootstrapBreakpoints() {
+    const { breakpoints } = (0, _react.useContext)(ThemeContext);
+    return breakpoints;
+}
+function useBootstrapMinBreakpoint() {
+    const { minBreakpoint } = (0, _react.useContext)(ThemeContext);
+    return minBreakpoint;
+}
+function useIsRTL() {
+    const { dir } = (0, _react.useContext)(ThemeContext);
+    return dir === "rtl";
+}
+function createBootstrapComponent(Component, opts) {
+    if (typeof opts === "string") opts = {
+        prefix: opts
+    };
+    const isClassy = Component.prototype && Component.prototype.isReactComponent;
+    // If it's a functional component make sure we don't break it with a ref
+    const { prefix, forwardRefAs = isClassy ? "ref" : "innerRef" } = opts;
+    const Wrapped = /*#__PURE__*/ _react.forwardRef(({ ...props }, ref)=>{
+        props[forwardRefAs] = ref;
+        const bsPrefix = useBootstrapPrefix(props.bsPrefix, prefix);
+        return /*#__PURE__*/ (0, _jsxRuntime.jsx)(Component, {
+            ...props,
+            bsPrefix: bsPrefix
+        });
+    });
+    Wrapped.displayName = `Bootstrap(${Component.displayName || Component.name})`;
+    return Wrapped;
+}
+exports.default = ThemeProvider;
 
 },{"react":"21dqq","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"6AEwr":[function(require,module,exports) {
 "use strict";
@@ -28710,91 +28731,227 @@ exports.export = function(dest, destName, get) {
     });
 };
 
-},{}],"dVixI":[function(require,module,exports) {
+},{}],"iN1Jc":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "DEFAULT_BREAKPOINTS", ()=>DEFAULT_BREAKPOINTS);
-parcelHelpers.export(exports, "DEFAULT_MIN_BREAKPOINT", ()=>DEFAULT_MIN_BREAKPOINT);
-parcelHelpers.export(exports, "useBootstrapPrefix", ()=>useBootstrapPrefix);
-parcelHelpers.export(exports, "useBootstrapBreakpoints", ()=>useBootstrapBreakpoints);
-parcelHelpers.export(exports, "useBootstrapMinBreakpoint", ()=>useBootstrapMinBreakpoint);
-parcelHelpers.export(exports, "useIsRTL", ()=>useIsRTL);
-parcelHelpers.export(exports, "createBootstrapComponent", ()=>createBootstrapComponent);
-parcelHelpers.export(exports, "ThemeConsumer", ()=>Consumer);
 var _react = require("react");
+var _classnames = require("classnames");
+var _classnamesDefault = parcelHelpers.interopDefault(_classnames);
+var _themeProvider = require("./ThemeProvider");
 var _jsxRuntime = require("react/jsx-runtime");
 "use client";
-const DEFAULT_BREAKPOINTS = [
-    "xxl",
-    "xl",
-    "lg",
-    "md",
-    "sm",
-    "xs"
-];
-const DEFAULT_MIN_BREAKPOINT = "xs";
-const ThemeContext = /*#__PURE__*/ _react.createContext({
-    prefixes: {},
-    breakpoints: DEFAULT_BREAKPOINTS,
-    minBreakpoint: DEFAULT_MIN_BREAKPOINT
+const CardBody = /*#__PURE__*/ _react.forwardRef(({ className, bsPrefix, as: Component = "div", ...props }, ref)=>{
+    bsPrefix = (0, _themeProvider.useBootstrapPrefix)(bsPrefix, "card-body");
+    return /*#__PURE__*/ (0, _jsxRuntime.jsx)(Component, {
+        ref: ref,
+        className: (0, _classnamesDefault.default)(className, bsPrefix),
+        ...props
+    });
 });
-const { Consumer, Provider } = ThemeContext;
-function ThemeProvider({ prefixes = {}, breakpoints = DEFAULT_BREAKPOINTS, minBreakpoint = DEFAULT_MIN_BREAKPOINT, dir, children }) {
-    const contextValue = (0, _react.useMemo)(()=>({
-            prefixes: {
-                ...prefixes
-            },
-            breakpoints,
-            minBreakpoint,
-            dir
-        }), [
-        prefixes,
-        breakpoints,
-        minBreakpoint,
-        dir
-    ]);
-    return /*#__PURE__*/ (0, _jsxRuntime.jsx)(Provider, {
-        value: contextValue,
-        children: children
-    });
-}
-function useBootstrapPrefix(prefix, defaultPrefix) {
-    const { prefixes } = (0, _react.useContext)(ThemeContext);
-    return prefix || prefixes[defaultPrefix] || defaultPrefix;
-}
-function useBootstrapBreakpoints() {
-    const { breakpoints } = (0, _react.useContext)(ThemeContext);
-    return breakpoints;
-}
-function useBootstrapMinBreakpoint() {
-    const { minBreakpoint } = (0, _react.useContext)(ThemeContext);
-    return minBreakpoint;
-}
-function useIsRTL() {
-    const { dir } = (0, _react.useContext)(ThemeContext);
-    return dir === "rtl";
-}
-function createBootstrapComponent(Component, opts) {
-    if (typeof opts === "string") opts = {
-        prefix: opts
-    };
-    const isClassy = Component.prototype && Component.prototype.isReactComponent;
-    // If it's a functional component make sure we don't break it with a ref
-    const { prefix, forwardRefAs = isClassy ? "ref" : "innerRef" } = opts;
-    const Wrapped = /*#__PURE__*/ _react.forwardRef(({ ...props }, ref)=>{
-        props[forwardRefAs] = ref;
-        const bsPrefix = useBootstrapPrefix(props.bsPrefix, prefix);
-        return /*#__PURE__*/ (0, _jsxRuntime.jsx)(Component, {
-            ...props,
-            bsPrefix: bsPrefix
-        });
-    });
-    Wrapped.displayName = `Bootstrap(${Component.displayName || Component.name})`;
-    return Wrapped;
-}
-exports.default = ThemeProvider;
+CardBody.displayName = "CardBody";
+exports.default = CardBody;
 
-},{"react":"21dqq","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"1wmVl":[function(require,module,exports) {
+},{"react":"21dqq","classnames":"jocGM","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"jUi26":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _react = require("react");
+var _classnames = require("classnames");
+var _classnamesDefault = parcelHelpers.interopDefault(_classnames);
+var _themeProvider = require("./ThemeProvider");
+var _jsxRuntime = require("react/jsx-runtime");
+"use client";
+const CardFooter = /*#__PURE__*/ _react.forwardRef(({ className, bsPrefix, as: Component = "div", ...props }, ref)=>{
+    bsPrefix = (0, _themeProvider.useBootstrapPrefix)(bsPrefix, "card-footer");
+    return /*#__PURE__*/ (0, _jsxRuntime.jsx)(Component, {
+        ref: ref,
+        className: (0, _classnamesDefault.default)(className, bsPrefix),
+        ...props
+    });
+});
+CardFooter.displayName = "CardFooter";
+exports.default = CardFooter;
+
+},{"react":"21dqq","classnames":"jocGM","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dXnnx":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _classnames = require("classnames");
+var _classnamesDefault = parcelHelpers.interopDefault(_classnames);
+var _react = require("react");
+var _themeProvider = require("./ThemeProvider");
+var _cardHeaderContext = require("./CardHeaderContext");
+var _cardHeaderContextDefault = parcelHelpers.interopDefault(_cardHeaderContext);
+var _jsxRuntime = require("react/jsx-runtime");
+"use client";
+const CardHeader = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, className, // Need to define the default "as" during prop destructuring to be compatible with styled-components github.com/react-bootstrap/react-bootstrap/issues/3595
+as: Component = "div", ...props }, ref)=>{
+    const prefix = (0, _themeProvider.useBootstrapPrefix)(bsPrefix, "card-header");
+    const contextValue = (0, _react.useMemo)(()=>({
+            cardHeaderBsPrefix: prefix
+        }), [
+        prefix
+    ]);
+    return /*#__PURE__*/ (0, _jsxRuntime.jsx)((0, _cardHeaderContextDefault.default).Provider, {
+        value: contextValue,
+        children: /*#__PURE__*/ (0, _jsxRuntime.jsx)(Component, {
+            ref: ref,
+            ...props,
+            className: (0, _classnamesDefault.default)(className, prefix)
+        })
+    });
+});
+CardHeader.displayName = "CardHeader";
+exports.default = CardHeader;
+
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./CardHeaderContext":"36cNB","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"36cNB":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _react = require("react");
+"use client";
+const context = /*#__PURE__*/ _react.createContext(null);
+context.displayName = "CardHeaderContext";
+exports.default = context;
+
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"1reTi":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _classnames = require("classnames");
+var _classnamesDefault = parcelHelpers.interopDefault(_classnames);
+var _react = require("react");
+var _themeProvider = require("./ThemeProvider");
+var _jsxRuntime = require("react/jsx-runtime");
+"use client";
+const CardImg = /*#__PURE__*/ _react.forwardRef(// Need to define the default "as" during prop destructuring to be compatible with styled-components github.com/react-bootstrap/react-bootstrap/issues/3595
+({ bsPrefix, className, variant, as: Component = "img", ...props }, ref)=>{
+    const prefix = (0, _themeProvider.useBootstrapPrefix)(bsPrefix, "card-img");
+    return /*#__PURE__*/ (0, _jsxRuntime.jsx)(Component, {
+        ref: ref,
+        className: (0, _classnamesDefault.default)(variant ? `${prefix}-${variant}` : prefix, className),
+        ...props
+    });
+});
+CardImg.displayName = "CardImg";
+exports.default = CardImg;
+
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"Bi8dC":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _react = require("react");
+var _classnames = require("classnames");
+var _classnamesDefault = parcelHelpers.interopDefault(_classnames);
+var _themeProvider = require("./ThemeProvider");
+var _jsxRuntime = require("react/jsx-runtime");
+"use client";
+const CardImgOverlay = /*#__PURE__*/ _react.forwardRef(({ className, bsPrefix, as: Component = "div", ...props }, ref)=>{
+    bsPrefix = (0, _themeProvider.useBootstrapPrefix)(bsPrefix, "card-img-overlay");
+    return /*#__PURE__*/ (0, _jsxRuntime.jsx)(Component, {
+        ref: ref,
+        className: (0, _classnamesDefault.default)(className, bsPrefix),
+        ...props
+    });
+});
+CardImgOverlay.displayName = "CardImgOverlay";
+exports.default = CardImgOverlay;
+
+},{"react":"21dqq","classnames":"jocGM","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"9uFCo":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _react = require("react");
+var _classnames = require("classnames");
+var _classnamesDefault = parcelHelpers.interopDefault(_classnames);
+var _themeProvider = require("./ThemeProvider");
+var _jsxRuntime = require("react/jsx-runtime");
+"use client";
+const CardLink = /*#__PURE__*/ _react.forwardRef(({ className, bsPrefix, as: Component = "a", ...props }, ref)=>{
+    bsPrefix = (0, _themeProvider.useBootstrapPrefix)(bsPrefix, "card-link");
+    return /*#__PURE__*/ (0, _jsxRuntime.jsx)(Component, {
+        ref: ref,
+        className: (0, _classnamesDefault.default)(className, bsPrefix),
+        ...props
+    });
+});
+CardLink.displayName = "CardLink";
+exports.default = CardLink;
+
+},{"react":"21dqq","classnames":"jocGM","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"i2BiN":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _react = require("react");
+var _classnames = require("classnames");
+var _classnamesDefault = parcelHelpers.interopDefault(_classnames);
+var _themeProvider = require("./ThemeProvider");
+var _divWithClassName = require("./divWithClassName");
+var _divWithClassNameDefault = parcelHelpers.interopDefault(_divWithClassName);
+var _jsxRuntime = require("react/jsx-runtime");
+"use client";
+const DivStyledAsH6 = (0, _divWithClassNameDefault.default)("h6");
+const CardSubtitle = /*#__PURE__*/ _react.forwardRef(({ className, bsPrefix, as: Component = DivStyledAsH6, ...props }, ref)=>{
+    bsPrefix = (0, _themeProvider.useBootstrapPrefix)(bsPrefix, "card-subtitle");
+    return /*#__PURE__*/ (0, _jsxRuntime.jsx)(Component, {
+        ref: ref,
+        className: (0, _classnamesDefault.default)(className, bsPrefix),
+        ...props
+    });
+});
+CardSubtitle.displayName = "CardSubtitle";
+exports.default = CardSubtitle;
+
+},{"react":"21dqq","classnames":"jocGM","./ThemeProvider":"dVixI","./divWithClassName":"eDg7t","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"eDg7t":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _react = require("react");
+var _classnames = require("classnames");
+var _classnamesDefault = parcelHelpers.interopDefault(_classnames);
+var _jsxRuntime = require("react/jsx-runtime");
+exports.default = (className)=>/*#__PURE__*/ _react.forwardRef((p, ref)=>/*#__PURE__*/ (0, _jsxRuntime.jsx)("div", {
+            ...p,
+            ref: ref,
+            className: (0, _classnamesDefault.default)(p.className, className)
+        }));
+
+},{"react":"21dqq","classnames":"jocGM","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"aUUmg":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _react = require("react");
+var _classnames = require("classnames");
+var _classnamesDefault = parcelHelpers.interopDefault(_classnames);
+var _themeProvider = require("./ThemeProvider");
+var _jsxRuntime = require("react/jsx-runtime");
+"use client";
+const CardText = /*#__PURE__*/ _react.forwardRef(({ className, bsPrefix, as: Component = "p", ...props }, ref)=>{
+    bsPrefix = (0, _themeProvider.useBootstrapPrefix)(bsPrefix, "card-text");
+    return /*#__PURE__*/ (0, _jsxRuntime.jsx)(Component, {
+        ref: ref,
+        className: (0, _classnamesDefault.default)(className, bsPrefix),
+        ...props
+    });
+});
+CardText.displayName = "CardText";
+exports.default = CardText;
+
+},{"react":"21dqq","classnames":"jocGM","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"79rSZ":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _react = require("react");
+var _classnames = require("classnames");
+var _classnamesDefault = parcelHelpers.interopDefault(_classnames);
+var _themeProvider = require("./ThemeProvider");
+var _divWithClassName = require("./divWithClassName");
+var _divWithClassNameDefault = parcelHelpers.interopDefault(_divWithClassName);
+var _jsxRuntime = require("react/jsx-runtime");
+"use client";
+const DivStyledAsH5 = (0, _divWithClassNameDefault.default)("h5");
+const CardTitle = /*#__PURE__*/ _react.forwardRef(({ className, bsPrefix, as: Component = DivStyledAsH5, ...props }, ref)=>{
+    bsPrefix = (0, _themeProvider.useBootstrapPrefix)(bsPrefix, "card-title");
+    return /*#__PURE__*/ (0, _jsxRuntime.jsx)(Component, {
+        ref: ref,
+        className: (0, _classnamesDefault.default)(className, bsPrefix),
+        ...props
+    });
+});
+CardTitle.displayName = "CardTitle";
+exports.default = CardTitle;
+
+},{"react":"21dqq","classnames":"jocGM","./ThemeProvider":"dVixI","./divWithClassName":"eDg7t","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"1wmVl":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _propTypes = require("prop-types");
@@ -31804,7 +31961,94 @@ var _react = require("react");
 }
 exports.default = useCommittedRef;
 
-},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dpn1g":[function(require,module,exports) {
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"8YUbR":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "isTrivialHref", ()=>isTrivialHref);
+parcelHelpers.export(exports, "useButtonProps", ()=>useButtonProps);
+var _react = require("react");
+var _jsxRuntime = require("react/jsx-runtime");
+const _excluded = [
+    "as",
+    "disabled"
+];
+function _objectWithoutPropertiesLoose(r, e) {
+    if (null == r) return {};
+    var t = {};
+    for(var n in r)if (({}).hasOwnProperty.call(r, n)) {
+        if (e.indexOf(n) >= 0) continue;
+        t[n] = r[n];
+    }
+    return t;
+}
+function isTrivialHref(href) {
+    return !href || href.trim() === "#";
+}
+function useButtonProps({ tagName, disabled, href, target, rel, role, onClick, tabIndex = 0, type }) {
+    if (!tagName) {
+        if (href != null || target != null || rel != null) tagName = "a";
+        else tagName = "button";
+    }
+    const meta = {
+        tagName
+    };
+    if (tagName === "button") return [
+        {
+            type: type || "button",
+            disabled
+        },
+        meta
+    ];
+    const handleClick = (event)=>{
+        if (disabled || tagName === "a" && isTrivialHref(href)) event.preventDefault();
+        if (disabled) {
+            event.stopPropagation();
+            return;
+        }
+        onClick == null || onClick(event);
+    };
+    const handleKeyDown = (event)=>{
+        if (event.key === " ") {
+            event.preventDefault();
+            handleClick(event);
+        }
+    };
+    if (tagName === "a") {
+        // Ensure there's a href so Enter can trigger anchor button.
+        href || (href = "#");
+        if (disabled) href = undefined;
+    }
+    return [
+        {
+            role: role != null ? role : "button",
+            // explicitly undefined so that it overrides the props disabled in a spread
+            // e.g. <Tag {...props} {...hookProps} />
+            disabled: undefined,
+            tabIndex: disabled ? undefined : tabIndex,
+            href,
+            target: tagName === "a" ? target : undefined,
+            "aria-disabled": !disabled ? undefined : disabled,
+            rel: tagName === "a" ? rel : undefined,
+            onClick: handleClick,
+            onKeyDown: handleKeyDown
+        },
+        meta
+    ];
+}
+const Button = /*#__PURE__*/ _react.forwardRef((_ref, ref)=>{
+    let { as: asProp, disabled } = _ref, props = _objectWithoutPropertiesLoose(_ref, _excluded);
+    const [buttonProps, { tagName: Component }] = useButtonProps(Object.assign({
+        tagName: asProp,
+        disabled
+    }, props));
+    return /*#__PURE__*/ (0, _jsxRuntime.jsx)(Component, Object.assign({}, props, buttonProps, {
+        ref: ref
+    }));
+});
+Button.displayName = "Button";
+exports.default = Button;
+
+},{"react":"21dqq","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dpn1g":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -31812,15 +32056,6 @@ var _react = require("react");
 // TODO: check
 const context = /*#__PURE__*/ _react.createContext(null);
 context.displayName = "NavbarContext";
-exports.default = context;
-
-},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"36cNB":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _react = require("react");
-"use client";
-const context = /*#__PURE__*/ _react.createContext(null);
-context.displayName = "CardHeaderContext";
 exports.default = context;
 
 },{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"ew05W":[function(require,module,exports) {
@@ -33617,20 +33852,7 @@ const OffcanvasTitle = /*#__PURE__*/ _react.forwardRef(({ className, bsPrefix, a
 OffcanvasTitle.displayName = "OffcanvasTitle";
 exports.default = OffcanvasTitle;
 
-},{"react":"21dqq","classnames":"jocGM","./divWithClassName":"eDg7t","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"eDg7t":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _react = require("react");
-var _classnames = require("classnames");
-var _classnamesDefault = parcelHelpers.interopDefault(_classnames);
-var _jsxRuntime = require("react/jsx-runtime");
-exports.default = (className)=>/*#__PURE__*/ _react.forwardRef((p, ref)=>/*#__PURE__*/ (0, _jsxRuntime.jsx)("div", {
-            ...p,
-            ref: ref,
-            className: (0, _classnamesDefault.default)(p.className, className)
-        }));
-
-},{"react":"21dqq","classnames":"jocGM","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"lr1Yp":[function(require,module,exports) {
+},{"react":"21dqq","classnames":"jocGM","./divWithClassName":"eDg7t","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"lr1Yp":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "getSharedManager", ()=>getSharedManager);
@@ -41119,11 +41341,12 @@ var prevRefreshSig = window.$RefreshSig$;
 $parcel$ReactRefreshHelpers$5f46.prelude(module);
 
 try {
-// HomeView
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "HomeView", ()=>HomeView);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _reactBootstrap = require("react-bootstrap");
+var _homeViewScss = require("./home-view.scss");
 const HomeView = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "home-view",
@@ -41132,10 +41355,10 @@ const HomeView = ()=>{
                 className: "welcome-landing",
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                        children: "WELCOME"
+                        children: "WELCOME!"
                     }, void 0, false, {
                         fileName: "src/components/home-view/home-view.jsx",
-                        lineNumber: 7,
+                        lineNumber: 11,
                         columnNumber: 17
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -41143,25 +41366,25 @@ const HomeView = ()=>{
                             children: "We're committed to your health!"
                         }, void 0, false, {
                             fileName: "src/components/home-view/home-view.jsx",
-                            lineNumber: 10,
-                            columnNumber: 21
+                            lineNumber: 13,
+                            columnNumber: 20
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/components/home-view/home-view.jsx",
-                        lineNumber: 9,
+                        lineNumber: 13,
                         columnNumber: 17
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         children: "Visit our clinic for effectual spinal adjustments!"
                     }, void 0, false, {
                         fileName: "src/components/home-view/home-view.jsx",
-                        lineNumber: 13,
+                        lineNumber: 15,
                         columnNumber: 17
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/home-view/home-view.jsx",
-                lineNumber: 6,
+                lineNumber: 10,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -41171,91 +41394,121 @@ const HomeView = ()=>{
                         children: "OUR SERVICES"
                     }, void 0, false, {
                         fileName: "src/components/home-view/home-view.jsx",
-                        lineNumber: 18,
-                        columnNumber: 17
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "services-item",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                                children: "Chiropractic Care"
-                            }, void 0, false, {
-                                fileName: "src/components/home-view/home-view.jsx",
-                                lineNumber: 21,
-                                columnNumber: 21
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                className: "services-desc",
-                                children: "Our experienced chiropractors are knowledgeable in spinal and chiropractic adjustments. The purpose of spinal adjustments is to return the spine to a natural state of health and to reduce pain, muscle spasms, and nerve irritation, so you can enjoy your life pain free."
-                            }, void 0, false, {
-                                fileName: "src/components/home-view/home-view.jsx",
-                                lineNumber: 23,
-                                columnNumber: 21
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/components/home-view/home-view.jsx",
                         lineNumber: 20,
                         columnNumber: 17
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "services-item",
+                        className: "services-card-grid",
                         children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                                children: "Auto Accident Injuries"
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Card), {
+                                className: "services-item shadow",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Card).Body, {
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Card).Title, {
+                                            className: "services-title",
+                                            children: "Chiropractic Care"
+                                        }, void 0, false, {
+                                            fileName: "src/components/home-view/home-view.jsx",
+                                            lineNumber: 25,
+                                            columnNumber: 29
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                            className: "services-desc",
+                                            children: "Our experienced chiropractors are knowledgeable in spinal and chiropractic adjustments. The purpose of spinal adjustments is to return the spine to a natural state of health and to reduce pain, muscle spasms, and nerve irritation, so you can enjoy your life pain free."
+                                        }, void 0, false, {
+                                            fileName: "src/components/home-view/home-view.jsx",
+                                            lineNumber: 27,
+                                            columnNumber: 29
+                                        }, undefined)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/home-view/home-view.jsx",
+                                    lineNumber: 24,
+                                    columnNumber: 25
+                                }, undefined)
                             }, void 0, false, {
                                 fileName: "src/components/home-view/home-view.jsx",
-                                lineNumber: 29,
+                                lineNumber: 23,
                                 columnNumber: 21
                             }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                className: "services-desc",
-                                children: "Our team understand the stress and pain patients are in following personal injury accidents. We analyze, diagnose, and create an individualized treatment plan for whiplash and soft tissue injuries. We will thoroughly explain your treatment and update your insurance agency or attorney on your behalf."
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Card), {
+                                className: "services-item shadow",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Card).Body, {
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Card).Title, {
+                                            className: "services-title",
+                                            children: "Auto Accident Injuries"
+                                        }, void 0, false, {
+                                            fileName: "src/components/home-view/home-view.jsx",
+                                            lineNumber: 35,
+                                            columnNumber: 29
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                            className: "services-desc",
+                                            children: "Our team understand the stress and pain patients are in following personal injury accidents. We analyze, diagnose, and create an individualized treatment plan for whiplash and soft tissue injuries. We will thoroughly explain your treatment and update your insurance agency or attorney on your behalf."
+                                        }, void 0, false, {
+                                            fileName: "src/components/home-view/home-view.jsx",
+                                            lineNumber: 37,
+                                            columnNumber: 29
+                                        }, undefined)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/home-view/home-view.jsx",
+                                    lineNumber: 34,
+                                    columnNumber: 25
+                                }, undefined)
                             }, void 0, false, {
                                 fileName: "src/components/home-view/home-view.jsx",
-                                lineNumber: 31,
+                                lineNumber: 33,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Card), {
+                                className: "services-item shadow",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Card).Body, {
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Card).Title, {
+                                            className: "services-title",
+                                            children: "Massage Therapy"
+                                        }, void 0, false, {
+                                            fileName: "src/components/home-view/home-view.jsx",
+                                            lineNumber: 45,
+                                            columnNumber: 29
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                            className: "services-desc",
+                                            children: "Our licensed massage therapist treats clients by using touch to manipulate the muscles and other soft tissues of the body. With her touch, she relieves pain, helps heal injuries, improves circulation, relieves stress, increases relaxation, and aids in the general wellness of clients."
+                                        }, void 0, false, {
+                                            fileName: "src/components/home-view/home-view.jsx",
+                                            lineNumber: 47,
+                                            columnNumber: 29
+                                        }, undefined)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/home-view/home-view.jsx",
+                                    lineNumber: 44,
+                                    columnNumber: 25
+                                }, undefined)
+                            }, void 0, false, {
+                                fileName: "src/components/home-view/home-view.jsx",
+                                lineNumber: 43,
                                 columnNumber: 21
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/home-view/home-view.jsx",
-                        lineNumber: 28,
-                        columnNumber: 17
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "services-item",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                                children: "Massage Therapy"
-                            }, void 0, false, {
-                                fileName: "src/components/home-view/home-view.jsx",
-                                lineNumber: 37,
-                                columnNumber: 21
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                className: "services-desc",
-                                children: "Our licensed massage therapist treats clients by using touch to manipulate the muscles and other soft tissues of the body. With her touch, she relieves pain, helps heal injuries, improves circulation, relieves stress, increases relaxation, and aids in the general wellness of clients."
-                            }, void 0, false, {
-                                fileName: "src/components/home-view/home-view.jsx",
-                                lineNumber: 39,
-                                columnNumber: 21
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/components/home-view/home-view.jsx",
-                        lineNumber: 36,
+                        lineNumber: 22,
                         columnNumber: 17
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/home-view/home-view.jsx",
-                lineNumber: 17,
+                lineNumber: 19,
                 columnNumber: 13
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/components/home-view/home-view.jsx",
-        lineNumber: 4,
+        lineNumber: 8,
         columnNumber: 9
     }, undefined);
 };
@@ -41268,7 +41521,7 @@ $RefreshReg$(_c, "HomeView");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","react/jsx-dev-runtime":"iTorj","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"km3Ru":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","react/jsx-dev-runtime":"iTorj","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react-bootstrap":"3AD9A","./home-view.scss":"hOFAc"}],"km3Ru":[function(require,module,exports) {
 "use strict";
 var Refresh = require("7422ead32dcc1e6b");
 function debounce(func, delay) {
@@ -41406,7 +41659,7 @@ function registerExportsForReactRefresh(module1) {
     }
 }
 
-},{"7422ead32dcc1e6b":"786KC"}],"c822j":[function(require,module,exports) {
+},{"7422ead32dcc1e6b":"786KC"}],"hOFAc":[function() {},{}],"c822j":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$7c47 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -41422,7 +41675,7 @@ const FormsView = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "forms-view",
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-            children: "DOWNLOADS"
+            children: "NEW PATIENT FORMS"
         }, void 0, false, {
             fileName: "src/components/forms-view/forms-view.jsx",
             lineNumber: 7,
@@ -41450,11 +41703,11 @@ var prevRefreshSig = window.$RefreshSig$;
 $parcel$ReactRefreshHelpers$e3e6.prelude(module);
 
 try {
-// EduView
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "EduView", ()=>EduView);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _reactBootstrap = require("react-bootstrap");
 const EduView = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "edu-view",
@@ -41465,14 +41718,14 @@ const EduView = ()=>{
                     children: "PATIENT EDUCATION"
                 }, void 0, false, {
                     fileName: "src/components/edu-view/edu-view.jsx",
-                    lineNumber: 6,
+                    lineNumber: 8,
                     columnNumber: 17
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
                     children: "FAQs"
                 }, void 0, false, {
                     fileName: "src/components/edu-view/edu-view.jsx",
-                    lineNumber: 9,
+                    lineNumber: 11,
                     columnNumber: 17
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -41481,539 +41734,606 @@ const EduView = ()=>{
                         children: "Each day, millions of delighted people choose chiropractic care over drugs or surgery as a common sense approach to better health. Chiropractic care is safe, comfortable, and benefits everyone - including infants, the elderly, and pregnant women."
                     }, void 0, false, {
                         fileName: "src/components/edu-view/edu-view.jsx",
-                        lineNumber: 12,
+                        lineNumber: 14,
                         columnNumber: 21
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/components/edu-view/edu-view.jsx",
-                    lineNumber: 11,
+                    lineNumber: 13,
                     columnNumber: 17
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                     fileName: "src/components/edu-view/edu-view.jsx",
-                    lineNumber: 15,
+                    lineNumber: 17,
                     columnNumber: 17
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
                     children: "Myths about Chiropractic"
                 }, void 0, false, {
                     fileName: "src/components/edu-view/edu-view.jsx",
-                    lineNumber: 18,
+                    lineNumber: 20,
                     columnNumber: 17
                 }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "edu-item",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                    className: "question-span",
-                                    children: "Question: "
-                                }, void 0, false, {
-                                    fileName: "src/components/edu-view/edu-view.jsx",
-                                    lineNumber: 23,
-                                    columnNumber: 25
-                                }, undefined),
-                                "I was told I should see a chiropractor, but I'm nervous about it. I mean, what exactly are chiropractors?"
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/components/edu-view/edu-view.jsx",
-                            lineNumber: 22,
-                            columnNumber: 21
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                    className: "answer-span",
-                                    children: "Answer: "
-                                }, void 0, false, {
-                                    fileName: "src/components/edu-view/edu-view.jsx",
-                                    lineNumber: 28,
-                                    columnNumber: 25
-                                }, undefined),
-                                "Chiropractors are doctors who practice the art of healing by adjusting, or manipulating, the spinal column. A healthy, well-aligned spinal column moving with full range of motion allows the nervous system to perform properly, which is vital because it controls every function of your body. To be licensed, chiropractors must have completed at least three years of university followed by four years at a chiropractic college."
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/components/edu-view/edu-view.jsx",
-                            lineNumber: 27,
-                            columnNumber: 21
-                        }, undefined)
-                    ]
-                }, void 0, true, {
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Card), {
+                    className: "edu-item shadow-sm",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Card).Body, {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "question-span",
+                                        children: "Question: "
+                                    }, void 0, false, {
+                                        fileName: "src/components/edu-view/edu-view.jsx",
+                                        lineNumber: 26,
+                                        columnNumber: 29
+                                    }, undefined),
+                                    "I was told I should see a chiropractor, but I'm nervous about it. I mean, what exactly are chiropractors?"
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/edu-view/edu-view.jsx",
+                                lineNumber: 25,
+                                columnNumber: 25
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "answer-span",
+                                        children: "Answer: "
+                                    }, void 0, false, {
+                                        fileName: "src/components/edu-view/edu-view.jsx",
+                                        lineNumber: 31,
+                                        columnNumber: 29
+                                    }, undefined),
+                                    "Chiropractors are doctors who practice the art of healing by adjusting, or manipulating, the spinal column. A healthy, well-aligned spinal column moving with full range of motion allows the nervous system to perform properly, which is vital because it controls every function of your body. To be licensed, chiropractors must have completed at least three years of university followed by four years at a chiropractic college."
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/edu-view/edu-view.jsx",
+                                lineNumber: 30,
+                                columnNumber: 25
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/edu-view/edu-view.jsx",
+                        lineNumber: 24,
+                        columnNumber: 21
+                    }, undefined)
+                }, void 0, false, {
                     fileName: "src/components/edu-view/edu-view.jsx",
-                    lineNumber: 21,
+                    lineNumber: 23,
                     columnNumber: 17
                 }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "edu-item",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                    className: "question-span",
-                                    children: "Question: "
-                                }, void 0, false, {
-                                    fileName: "src/components/edu-view/edu-view.jsx",
-                                    lineNumber: 36,
-                                    columnNumber: 25
-                                }, undefined),
-                                "Does it hurt to get your spine adjusted?"
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/components/edu-view/edu-view.jsx",
-                            lineNumber: 35,
-                            columnNumber: 21
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                    className: "answer-span",
-                                    children: "Answer: "
-                                }, void 0, false, {
-                                    fileName: "src/components/edu-view/edu-view.jsx",
-                                    lineNumber: 41,
-                                    columnNumber: 25
-                                }, undefined),
-                                "Not at all. Chiropractic adjustments are comfortable and safe for the whole family, from infants to pregnant women and the elderly."
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/components/edu-view/edu-view.jsx",
-                            lineNumber: 40,
-                            columnNumber: 21
-                        }, undefined)
-                    ]
-                }, void 0, true, {
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Card), {
+                    className: "edu-item shadow-sm",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Card).Body, {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "question-span",
+                                        children: "Question: "
+                                    }, void 0, false, {
+                                        fileName: "src/components/edu-view/edu-view.jsx",
+                                        lineNumber: 41,
+                                        columnNumber: 29
+                                    }, undefined),
+                                    "Does it hurt to get your spine adjusted?"
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/edu-view/edu-view.jsx",
+                                lineNumber: 40,
+                                columnNumber: 25
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "answer-span",
+                                        children: "Answer: "
+                                    }, void 0, false, {
+                                        fileName: "src/components/edu-view/edu-view.jsx",
+                                        lineNumber: 46,
+                                        columnNumber: 29
+                                    }, undefined),
+                                    "Not at all. Chiropractic adjustments are comfortable and safe for the whole family, from infants to pregnant women and the elderly."
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/edu-view/edu-view.jsx",
+                                lineNumber: 45,
+                                columnNumber: 25
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/edu-view/edu-view.jsx",
+                        lineNumber: 39,
+                        columnNumber: 21
+                    }, undefined)
+                }, void 0, false, {
                     fileName: "src/components/edu-view/edu-view.jsx",
-                    lineNumber: 34,
+                    lineNumber: 38,
                     columnNumber: 17
                 }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "edu-item",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                    className: "question-span",
-                                    children: "Question: "
-                                }, void 0, false, {
-                                    fileName: "src/components/edu-view/edu-view.jsx",
-                                    lineNumber: 49,
-                                    columnNumber: 25
-                                }, undefined),
-                                "Do physicians recommend chiropractic care?"
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/components/edu-view/edu-view.jsx",
-                            lineNumber: 48,
-                            columnNumber: 21
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                    className: "answer-span",
-                                    children: "Answer: "
-                                }, void 0, false, {
-                                    fileName: "src/components/edu-view/edu-view.jsx",
-                                    lineNumber: 54,
-                                    columnNumber: 25
-                                }, undefined),
-                                "Most do, and many physicians are being treated by chiropractors themselves."
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/components/edu-view/edu-view.jsx",
-                            lineNumber: 53,
-                            columnNumber: 21
-                        }, undefined)
-                    ]
-                }, void 0, true, {
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Card), {
+                    className: "edu-item shadow-sm",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Card).Body, {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "question-span",
+                                        children: "Question: "
+                                    }, void 0, false, {
+                                        fileName: "src/components/edu-view/edu-view.jsx",
+                                        lineNumber: 56,
+                                        columnNumber: 29
+                                    }, undefined),
+                                    "Do physicians recommend chiropractic care?"
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/edu-view/edu-view.jsx",
+                                lineNumber: 55,
+                                columnNumber: 25
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "answer-span",
+                                        children: "Answer: "
+                                    }, void 0, false, {
+                                        fileName: "src/components/edu-view/edu-view.jsx",
+                                        lineNumber: 61,
+                                        columnNumber: 29
+                                    }, undefined),
+                                    "Most do, and many physicians are being treated by chiropractors themselves."
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/edu-view/edu-view.jsx",
+                                lineNumber: 60,
+                                columnNumber: 25
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/edu-view/edu-view.jsx",
+                        lineNumber: 54,
+                        columnNumber: 21
+                    }, undefined)
+                }, void 0, false, {
                     fileName: "src/components/edu-view/edu-view.jsx",
-                    lineNumber: 47,
+                    lineNumber: 53,
                     columnNumber: 17
                 }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "edu-item",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                    className: "question-span",
-                                    children: "Question: "
-                                }, void 0, false, {
-                                    fileName: "src/components/edu-view/edu-view.jsx",
-                                    lineNumber: 62,
-                                    columnNumber: 25
-                                }, undefined),
-                                "If I go to see a chiropractor, will I be expected to keep going?"
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/components/edu-view/edu-view.jsx",
-                            lineNumber: 61,
-                            columnNumber: 21
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                    className: "answer-span",
-                                    children: "Answer: "
-                                }, void 0, false, {
-                                    fileName: "src/components/edu-view/edu-view.jsx",
-                                    lineNumber: 67,
-                                    columnNumber: 25
-                                }, undefined),
-                                'That\'s entirely up to you. Some people only want to be treated for a specific pain or illness, and when the symptoms disappear, they stop going. Others use chiropractic care to fully correct the underlying cause of the symptoms and to remain feeling really well. Like a car, your body has constant stress and wear, and it benefits from a "tune-up". However, which treatment approach you want is always your choice.'
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/components/edu-view/edu-view.jsx",
-                            lineNumber: 66,
-                            columnNumber: 21
-                        }, undefined)
-                    ]
-                }, void 0, true, {
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Card), {
+                    className: "edu-item shadow-sm",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Card).Body, {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "question-span",
+                                        children: "Question: "
+                                    }, void 0, false, {
+                                        fileName: "src/components/edu-view/edu-view.jsx",
+                                        lineNumber: 71,
+                                        columnNumber: 29
+                                    }, undefined),
+                                    "If I go to see a chiropractor, will I be expected to keep going?"
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/edu-view/edu-view.jsx",
+                                lineNumber: 70,
+                                columnNumber: 25
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "answer-span",
+                                        children: "Answer: "
+                                    }, void 0, false, {
+                                        fileName: "src/components/edu-view/edu-view.jsx",
+                                        lineNumber: 76,
+                                        columnNumber: 29
+                                    }, undefined),
+                                    'That\'s entirely up to you. Some people only want to be treated for a specific pain or illness, and when the symptoms disappear, they stop going. Others use chiropractic care to fully correct the underlying cause of the symptoms and to remain feeling really well. Like a car, your body has constant stress and wear, and it benefits from a "tune-up". However, which treatment approach you want is always your choice.'
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/edu-view/edu-view.jsx",
+                                lineNumber: 75,
+                                columnNumber: 25
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/edu-view/edu-view.jsx",
+                        lineNumber: 69,
+                        columnNumber: 21
+                    }, undefined)
+                }, void 0, false, {
                     fileName: "src/components/edu-view/edu-view.jsx",
-                    lineNumber: 60,
+                    lineNumber: 68,
                     columnNumber: 17
                 }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "edu-item",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                    className: "question-span",
-                                    children: "Question: "
-                                }, void 0, false, {
-                                    fileName: "src/components/edu-view/edu-view.jsx",
-                                    lineNumber: 75,
-                                    columnNumber: 25
-                                }, undefined),
-                                "Doesn't it cost a lot?"
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/components/edu-view/edu-view.jsx",
-                            lineNumber: 74,
-                            columnNumber: 21
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                    className: "answer-span",
-                                    children: "Answer: "
-                                }, void 0, false, {
-                                    fileName: "src/components/edu-view/edu-view.jsx",
-                                    lineNumber: 80,
-                                    columnNumber: 25
-                                }, undefined),
-                                "No. Many of the pain-killers and drugs you buy to treat pain and illness cost more than chiropractic care. Yet chiropractic care treats more than the symptoms of poor health - it treats the underlying cause. It also helps to restore and maintain good health, without using any drugs."
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/components/edu-view/edu-view.jsx",
-                            lineNumber: 79,
-                            columnNumber: 21
-                        }, undefined)
-                    ]
-                }, void 0, true, {
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Card), {
+                    className: "edu-item shadow-sm",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Card).Body, {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "question-span",
+                                        children: "Question: "
+                                    }, void 0, false, {
+                                        fileName: "src/components/edu-view/edu-view.jsx",
+                                        lineNumber: 86,
+                                        columnNumber: 29
+                                    }, undefined),
+                                    "Doesn't it cost a lot?"
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/edu-view/edu-view.jsx",
+                                lineNumber: 85,
+                                columnNumber: 25
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "answer-span",
+                                        children: "Answer: "
+                                    }, void 0, false, {
+                                        fileName: "src/components/edu-view/edu-view.jsx",
+                                        lineNumber: 91,
+                                        columnNumber: 29
+                                    }, undefined),
+                                    "No. Many of the pain-killers and drugs you buy to treat pain and illness cost more than chiropractic care. Yet chiropractic care treats more than the symptoms of poor health - it treats the underlying cause. It also helps to restore and maintain good health, without using any drugs."
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/edu-view/edu-view.jsx",
+                                lineNumber: 90,
+                                columnNumber: 25
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/edu-view/edu-view.jsx",
+                        lineNumber: 84,
+                        columnNumber: 21
+                    }, undefined)
+                }, void 0, false, {
                     fileName: "src/components/edu-view/edu-view.jsx",
-                    lineNumber: 73,
+                    lineNumber: 83,
                     columnNumber: 17
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                     fileName: "src/components/edu-view/edu-view.jsx",
-                    lineNumber: 85,
+                    lineNumber: 97,
                     columnNumber: 17
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
                     children: "Adjustments"
                 }, void 0, false, {
                     fileName: "src/components/edu-view/edu-view.jsx",
-                    lineNumber: 88,
+                    lineNumber: 100,
                     columnNumber: 17
                 }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "edu-item",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                    className: "question-span",
-                                    children: "Question: "
-                                }, void 0, false, {
-                                    fileName: "src/components/edu-view/edu-view.jsx",
-                                    lineNumber: 93,
-                                    columnNumber: 25
-                                }, undefined),
-                                "What is an adjustment?"
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/components/edu-view/edu-view.jsx",
-                            lineNumber: 92,
-                            columnNumber: 21
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                    className: "answer-span",
-                                    children: "Answer: "
-                                }, void 0, false, {
-                                    fileName: "src/components/edu-view/edu-view.jsx",
-                                    lineNumber: 98,
-                                    columnNumber: 25
-                                }, undefined),
-                                'A chiropractic adjustment is the use of a specific force in a precise direction that helps normalize spinal function. The adjustment is applied to a joint that is fixated, "locked up", or not moving properly. Adjustments help return the bones to a more normal position or motion, restoring the body\'s natural healing.'
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/components/edu-view/edu-view.jsx",
-                            lineNumber: 97,
-                            columnNumber: 21
-                        }, undefined)
-                    ]
-                }, void 0, true, {
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Card), {
+                    className: "edu-item shadow-sm",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Card).Body, {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "question-span",
+                                        children: "Question: "
+                                    }, void 0, false, {
+                                        fileName: "src/components/edu-view/edu-view.jsx",
+                                        lineNumber: 106,
+                                        columnNumber: 29
+                                    }, undefined),
+                                    "What is an adjustment?"
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/edu-view/edu-view.jsx",
+                                lineNumber: 105,
+                                columnNumber: 25
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "answer-span",
+                                        children: "Answer: "
+                                    }, void 0, false, {
+                                        fileName: "src/components/edu-view/edu-view.jsx",
+                                        lineNumber: 111,
+                                        columnNumber: 29
+                                    }, undefined),
+                                    'A chiropractic adjustment is the use of a specific force in a precise direction that helps normalize spinal function. The adjustment is applied to a joint that is fixated, "locked up", or not moving properly. Adjustments help return the bones to a more normal position or motion, restoring the body\'s natural healing.'
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/edu-view/edu-view.jsx",
+                                lineNumber: 110,
+                                columnNumber: 25
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/edu-view/edu-view.jsx",
+                        lineNumber: 104,
+                        columnNumber: 21
+                    }, undefined)
+                }, void 0, false, {
                     fileName: "src/components/edu-view/edu-view.jsx",
-                    lineNumber: 91,
+                    lineNumber: 103,
                     columnNumber: 17
                 }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "edu-item",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                    className: "question-span",
-                                    children: "Question: "
-                                }, void 0, false, {
-                                    fileName: "src/components/edu-view/edu-view.jsx",
-                                    lineNumber: 106,
-                                    columnNumber: 25
-                                }, undefined),
-                                "What does it do?"
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/components/edu-view/edu-view.jsx",
-                            lineNumber: 105,
-                            columnNumber: 21
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                    className: "answer-span",
-                                    children: "Answer: "
-                                }, void 0, false, {
-                                    fileName: "src/components/edu-view/edu-view.jsx",
-                                    lineNumber: 111,
-                                    columnNumber: 25
-                                }, undefined),
-                                "Adjustments help normalize spinal function and avoid bone and soft tissue degeneration. When nervous system function improves in this way, the body can begin the natural healing process."
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/components/edu-view/edu-view.jsx",
-                            lineNumber: 110,
-                            columnNumber: 21
-                        }, undefined)
-                    ]
-                }, void 0, true, {
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Card), {
+                    className: "edu-item shadow-sm",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Card).Body, {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "question-span",
+                                        children: "Question: "
+                                    }, void 0, false, {
+                                        fileName: "src/components/edu-view/edu-view.jsx",
+                                        lineNumber: 121,
+                                        columnNumber: 29
+                                    }, undefined),
+                                    "What does it do?"
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/edu-view/edu-view.jsx",
+                                lineNumber: 120,
+                                columnNumber: 25
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "answer-span",
+                                        children: "Answer: "
+                                    }, void 0, false, {
+                                        fileName: "src/components/edu-view/edu-view.jsx",
+                                        lineNumber: 126,
+                                        columnNumber: 29
+                                    }, undefined),
+                                    "Adjustments help normalize spinal function and avoid bone and soft tissue degeneration. When nervous system function improves in this way, the body can begin the natural healing process."
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/edu-view/edu-view.jsx",
+                                lineNumber: 125,
+                                columnNumber: 25
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/edu-view/edu-view.jsx",
+                        lineNumber: 119,
+                        columnNumber: 21
+                    }, undefined)
+                }, void 0, false, {
                     fileName: "src/components/edu-view/edu-view.jsx",
-                    lineNumber: 104,
+                    lineNumber: 118,
                     columnNumber: 17
                 }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "edu-item",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                    className: "question-span",
-                                    children: "Question: "
-                                }, void 0, false, {
-                                    fileName: "src/components/edu-view/edu-view.jsx",
-                                    lineNumber: 119,
-                                    columnNumber: 25
-                                }, undefined),
-                                "What do adjustments feel like?"
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/components/edu-view/edu-view.jsx",
-                            lineNumber: 118,
-                            columnNumber: 21
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                    className: "answer-span",
-                                    children: "Answer: "
-                                }, void 0, false, {
-                                    fileName: "src/components/edu-view/edu-view.jsx",
-                                    lineNumber: 124,
-                                    columnNumber: 25
-                                }, undefined),
-                                "After the adjustment, many patients report a sense of well-being or a feeling of calmness. Others feel improved mobility. Inflammation or muscle spasms may delay these positive effects. Chiropractors excel at making adjustments comfortable and effective."
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/components/edu-view/edu-view.jsx",
-                            lineNumber: 123,
-                            columnNumber: 21
-                        }, undefined)
-                    ]
-                }, void 0, true, {
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Card), {
+                    className: "edu-item shadow-sm",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Card).Body, {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "question-span",
+                                        children: "Question: "
+                                    }, void 0, false, {
+                                        fileName: "src/components/edu-view/edu-view.jsx",
+                                        lineNumber: 136,
+                                        columnNumber: 29
+                                    }, undefined),
+                                    "What do adjustments feel like?"
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/edu-view/edu-view.jsx",
+                                lineNumber: 135,
+                                columnNumber: 25
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "answer-span",
+                                        children: "Answer: "
+                                    }, void 0, false, {
+                                        fileName: "src/components/edu-view/edu-view.jsx",
+                                        lineNumber: 141,
+                                        columnNumber: 29
+                                    }, undefined),
+                                    "After the adjustment, many patients report a sense of well-being or a feeling of calmness. Others feel improved mobility. Inflammation or muscle spasms may delay these positive effects. Chiropractors excel at making adjustments comfortable and effective."
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/edu-view/edu-view.jsx",
+                                lineNumber: 140,
+                                columnNumber: 25
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/edu-view/edu-view.jsx",
+                        lineNumber: 134,
+                        columnNumber: 21
+                    }, undefined)
+                }, void 0, false, {
                     fileName: "src/components/edu-view/edu-view.jsx",
-                    lineNumber: 117,
+                    lineNumber: 133,
                     columnNumber: 17
                 }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "edu-item",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                    className: "question-span",
-                                    children: "Question: "
-                                }, void 0, false, {
-                                    fileName: "src/components/edu-view/edu-view.jsx",
-                                    lineNumber: 132,
-                                    columnNumber: 25
-                                }, undefined),
-                                "Is it safe?"
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/components/edu-view/edu-view.jsx",
-                            lineNumber: 131,
-                            columnNumber: 21
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                    className: "answer-span",
-                                    children: "Answer: "
-                                }, void 0, false, {
-                                    fileName: "src/components/edu-view/edu-view.jsx",
-                                    lineNumber: 137,
-                                    columnNumber: 25
-                                }, undefined),
-                                "YES! Chiropractic adjustments are so safe, even newborns and children receive adjustments to repair the damage caused from the birth process, learning to walk, or other childhood trauma. Each adjustment is tailored to each patient's age, size, and unique spinal problem. After years of training, each chiropractor has selected a variety of methods and become skilled in their delivery."
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/components/edu-view/edu-view.jsx",
-                            lineNumber: 136,
-                            columnNumber: 21
-                        }, undefined)
-                    ]
-                }, void 0, true, {
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Card), {
+                    className: "edu-item shadow-sm",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Card).Body, {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "question-span",
+                                        children: "Question: "
+                                    }, void 0, false, {
+                                        fileName: "src/components/edu-view/edu-view.jsx",
+                                        lineNumber: 151,
+                                        columnNumber: 29
+                                    }, undefined),
+                                    "Is it safe?"
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/edu-view/edu-view.jsx",
+                                lineNumber: 150,
+                                columnNumber: 25
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "answer-span",
+                                        children: "Answer: "
+                                    }, void 0, false, {
+                                        fileName: "src/components/edu-view/edu-view.jsx",
+                                        lineNumber: 156,
+                                        columnNumber: 29
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        children: "YES!"
+                                    }, void 0, false, {
+                                        fileName: "src/components/edu-view/edu-view.jsx",
+                                        lineNumber: 157,
+                                        columnNumber: 29
+                                    }, undefined),
+                                    " Chiropractic adjustments are so safe, even newborns and children receive adjustments to repair the damage caused from the birth process, learning to walk, or other childhood trauma. Each adjustment is tailored to each patient's age, size, and unique spinal problem. After years of training, each chiropractor has selected a variety of methods and become skilled in their delivery."
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/edu-view/edu-view.jsx",
+                                lineNumber: 155,
+                                columnNumber: 25
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/edu-view/edu-view.jsx",
+                        lineNumber: 149,
+                        columnNumber: 21
+                    }, undefined)
+                }, void 0, false, {
                     fileName: "src/components/edu-view/edu-view.jsx",
-                    lineNumber: 130,
+                    lineNumber: 148,
                     columnNumber: 17
                 }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "edu-item",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                    className: "question-span",
-                                    children: "Question: "
-                                }, void 0, false, {
-                                    fileName: "src/components/edu-view/edu-view.jsx",
-                                    lineNumber: 145,
-                                    columnNumber: 25
-                                }, undefined),
-                                "Why should I get an adjustment?"
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/components/edu-view/edu-view.jsx",
-                            lineNumber: 144,
-                            columnNumber: 21
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                    className: "answer-span",
-                                    children: "Answer: "
-                                }, void 0, false, {
-                                    fileName: "src/components/edu-view/edu-view.jsx",
-                                    lineNumber: 150,
-                                    columnNumber: 25
-                                }, undefined),
-                                "A chiropractic adjustment corrects Vertebral Subluxations. An adjustment helps your body to restore itself to optimum health! When the 24 bones that protect the spinal cord lose their normal position or motion, delicate nerve tissue can become choked or irritated. If a thorough examination reveals malfunctioning areas of the spine, chiropractic adjustments are recommended to help correct this malfunction."
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/components/edu-view/edu-view.jsx",
-                            lineNumber: 149,
-                            columnNumber: 21
-                        }, undefined)
-                    ]
-                }, void 0, true, {
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Card), {
+                    className: "edu-item shadow-sm",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Card).Body, {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "question-span",
+                                        children: "Question: "
+                                    }, void 0, false, {
+                                        fileName: "src/components/edu-view/edu-view.jsx",
+                                        lineNumber: 166,
+                                        columnNumber: 29
+                                    }, undefined),
+                                    "Why should I get an adjustment?"
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/edu-view/edu-view.jsx",
+                                lineNumber: 165,
+                                columnNumber: 25
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "answer-span",
+                                        children: "Answer: "
+                                    }, void 0, false, {
+                                        fileName: "src/components/edu-view/edu-view.jsx",
+                                        lineNumber: 171,
+                                        columnNumber: 29
+                                    }, undefined),
+                                    "A chiropractic adjustment corrects Vertebral Subluxations. An adjustment helps your body to restore itself to optimum health! When the 24 bones that protect the spinal cord lose their normal position or motion, delicate nerve tissue can become choked or irritated. If a thorough examination reveals malfunctioning areas of the spine, chiropractic adjustments are recommended to help correct this malfunction."
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/edu-view/edu-view.jsx",
+                                lineNumber: 170,
+                                columnNumber: 25
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/edu-view/edu-view.jsx",
+                        lineNumber: 164,
+                        columnNumber: 21
+                    }, undefined)
+                }, void 0, false, {
                     fileName: "src/components/edu-view/edu-view.jsx",
-                    lineNumber: 143,
+                    lineNumber: 163,
                     columnNumber: 17
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                     fileName: "src/components/edu-view/edu-view.jsx",
-                    lineNumber: 155,
+                    lineNumber: 177,
                     columnNumber: 17
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
                     children: "FURTHER READING"
                 }, void 0, false, {
                     fileName: "src/components/edu-view/edu-view.jsx",
-                    lineNumber: 158,
+                    lineNumber: 180,
                     columnNumber: 17
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
                     children: "Subluxations"
                 }, void 0, false, {
                     fileName: "src/components/edu-view/edu-view.jsx",
-                    lineNumber: 160,
+                    lineNumber: 182,
                     columnNumber: 17
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                     children: '"A subluxation is a complex of functional and/or structural and/or pathological articular changes that compromise neural integrity and may influence organ system function and general health." Instead of treating your symptoms, your chiropractor is primarily interested in detecting, reducing, and preventing the Vertebral Subluxation Complex, because a person without subluxations is better off than someone with them.'
                 }, void 0, false, {
                     fileName: "src/components/edu-view/edu-view.jsx",
-                    lineNumber: 162,
+                    lineNumber: 184,
                     columnNumber: 17
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                     children: "A subluxation, or more precisely, the Vertebral Subluxation Complex (VSC), describes what happens when spinal bones lose their normal position and motion from stress, trauma, or chemical imbalances."
                 }, void 0, false, {
                     fileName: "src/components/edu-view/edu-view.jsx",
-                    lineNumber: 164,
+                    lineNumber: 186,
                     columnNumber: 17
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                     children: 'The VSC is the underlying cause of many healthcare problems. When one or more vertebrae lose their normal position and/or motion, they can interfere with the normal function of the nervous system that the vertebral bones were meant to house and protect. This interference can occur as pressure or irritation on the spinal cord, or on the nerve roots as they pass out of the spinal column. This nerve injury, or interference, is what doctors of chiropractic call the Vertebral Subluxation Complex - "vertebral" meaning relating to bones of the spine; \u201Csubluxation" meaning the improper motion or position of the vertebra; and "complex" meaning that the condition consists of many elements.'
                 }, void 0, false, {
                     fileName: "src/components/edu-view/edu-view.jsx",
-                    lineNumber: 166,
+                    lineNumber: 188,
                     columnNumber: 17
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                     children: "Chiropractic is not the only health care discipline that recognizes the effects of the VSC. The effects of the VSC are generally relied upon and accepted among different healing disciplines, and they are being studied in many parts of the world."
                 }, void 0, false, {
                     fileName: "src/components/edu-view/edu-view.jsx",
-                    lineNumber: 168,
+                    lineNumber: 190,
                     columnNumber: 17
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                     children: "The Vertebral Subluxation Complex describes what happens when spinal bones lose their normal position and motion. Automobile accidents, improper lifting, alcohol, emotional stress, chemical imbalances, and long periods of sitting can cause the VSC."
                 }, void 0, false, {
                     fileName: "src/components/edu-view/edu-view.jsx",
-                    lineNumber: 170,
+                    lineNumber: 192,
                     columnNumber: 17
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                     children: "The primary job of the doctor of chiropractic is to detect, reduce, and help prevent the Vertebral Subluxation Complex using chiropractic manipulation as the primary form of treatment. Applying a carefully and precisely directed pressure to the spine in a quick manner by hand or special instrument, the doctor of chiropractic is able to restore normal motion and function to the spine, thereby reducing or eliminating the VSC."
                 }, void 0, false, {
                     fileName: "src/components/edu-view/edu-view.jsx",
-                    lineNumber: 172,
+                    lineNumber: 194,
                     columnNumber: 17
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                     fileName: "src/components/edu-view/edu-view.jsx",
-                    lineNumber: 174,
+                    lineNumber: 196,
                     columnNumber: 17
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
                     children: "Suggestions to Follow during Spinal Correction"
                 }, void 0, false, {
                     fileName: "src/components/edu-view/edu-view.jsx",
-                    lineNumber: 177,
+                    lineNumber: 199,
                     columnNumber: 17
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ol", {
@@ -42022,283 +42342,269 @@ const EduView = ()=>{
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                             children: [
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                    className: "suggestion-span",
                                     children: "DO"
                                 }, void 0, false, {
                                     fileName: "src/components/edu-view/edu-view.jsx",
-                                    lineNumber: 180,
+                                    lineNumber: 202,
                                     columnNumber: 25
                                 }, undefined),
                                 " ice down the adjusted area, per doctor's recommendation."
                             ]
                         }, void 0, true, {
                             fileName: "src/components/edu-view/edu-view.jsx",
-                            lineNumber: 180,
+                            lineNumber: 202,
                             columnNumber: 21
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                             children: [
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                    className: "suggestion-span",
                                     children: "DO"
                                 }, void 0, false, {
                                     fileName: "src/components/edu-view/edu-view.jsx",
-                                    lineNumber: 181,
+                                    lineNumber: 203,
                                     columnNumber: 25
                                 }, undefined),
                                 " be sure to get plenty of sleep to allow your body to recuperate and repair."
                             ]
                         }, void 0, true, {
                             fileName: "src/components/edu-view/edu-view.jsx",
-                            lineNumber: 181,
+                            lineNumber: 203,
                             columnNumber: 21
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                             children: [
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                    className: "suggestion-span",
                                     children: "DO"
                                 }, void 0, false, {
                                     fileName: "src/components/edu-view/edu-view.jsx",
-                                    lineNumber: 182,
+                                    lineNumber: 204,
                                     columnNumber: 25
                                 }, undefined),
                                 " sleep on your back or side with your legs flexed slightly, not drawn up tightly. Avoid sleeping on your stomach."
                             ]
                         }, void 0, true, {
                             fileName: "src/components/edu-view/edu-view.jsx",
-                            lineNumber: 182,
+                            lineNumber: 204,
                             columnNumber: 21
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                             children: [
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                    className: "suggestion-span",
                                     children: "DO"
                                 }, void 0, false, {
                                     fileName: "src/components/edu-view/edu-view.jsx",
-                                    lineNumber: 183,
+                                    lineNumber: 205,
                                     columnNumber: 25
                                 }, undefined),
                                 " sleep on a firm mattress, preferably one that is neither too soft nor too hard, but just firm enough to hold your body level, while at the same time soft enough so that your shoulders, buttocks, etc., will depress into the mattress."
                             ]
                         }, void 0, true, {
                             fileName: "src/components/edu-view/edu-view.jsx",
-                            lineNumber: 183,
+                            lineNumber: 205,
                             columnNumber: 21
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                             children: [
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                    className: "suggestion-span",
                                     children: "DO"
                                 }, void 0, false, {
                                     fileName: "src/components/edu-view/edu-view.jsx",
-                                    lineNumber: 184,
+                                    lineNumber: 206,
                                     columnNumber: 25
                                 }, undefined),
                                 " rise from your bed by turning on your side and swinging your legs off the bed, then push yourself into a sitting position with your arms, thus minimizing the amount of strain on your back."
                             ]
                         }, void 0, true, {
                             fileName: "src/components/edu-view/edu-view.jsx",
-                            lineNumber: 184,
+                            lineNumber: 206,
                             columnNumber: 21
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                             children: [
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                    className: "suggestion-span",
                                     children: "DO"
                                 }, void 0, false, {
                                     fileName: "src/components/edu-view/edu-view.jsx",
-                                    lineNumber: 185,
+                                    lineNumber: 207,
                                     columnNumber: 25
                                 }, undefined),
                                 " participate in simple exercises that strengthen your body, but avoid jarring activities that place stress on your neck and spine."
                             ]
                         }, void 0, true, {
                             fileName: "src/components/edu-view/edu-view.jsx",
-                            lineNumber: 185,
+                            lineNumber: 207,
                             columnNumber: 21
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                             children: [
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                    className: "suggestion-span",
                                     children: "DO"
                                 }, void 0, false, {
                                     fileName: "src/components/edu-view/edu-view.jsx",
-                                    lineNumber: 186,
+                                    lineNumber: 208,
                                     columnNumber: 25
                                 }, undefined),
                                 " give it time. As with any medical treatment, healing with chiropractic is a process, not a magic pill. It takes time and is influenced by many factors. Over time, things should improve, and if necessary, we will adjust your treatment plan as we proceed. Changes to your condition can happen faster than anticipated, so enjoy them."
                             ]
                         }, void 0, true, {
                             fileName: "src/components/edu-view/edu-view.jsx",
-                            lineNumber: 186,
+                            lineNumber: 208,
                             columnNumber: 21
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                             children: [
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                    className: "suggestion-span",
                                     children: "DO"
                                 }, void 0, false, {
                                     fileName: "src/components/edu-view/edu-view.jsx",
-                                    lineNumber: 187,
+                                    lineNumber: 209,
                                     columnNumber: 25
                                 }, undefined),
                                 " keep a positive attitude and EXPECT positive results. As we follow through on your treatment plan, look for signs of improvement and take encouragement from them. Build an attitude that expects positive results and knows that profound healing is possible. Your belief and expectation has an incredibly strong influence on your body and is a key factor in healing."
                             ]
                         }, void 0, true, {
                             fileName: "src/components/edu-view/edu-view.jsx",
-                            lineNumber: 187,
+                            lineNumber: 209,
                             columnNumber: 21
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                             children: [
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                    className: "suggestion-span",
                                     children: "DON'T"
                                 }, void 0, false, {
                                     fileName: "src/components/edu-view/edu-view.jsx",
-                                    lineNumber: 188,
+                                    lineNumber: 210,
                                     columnNumber: 25
                                 }, undefined),
                                 " use any heat. No heating pads, heated ointments, hot baths, or hot tubs unless recommended by the doctor."
                             ]
                         }, void 0, true, {
                             fileName: "src/components/edu-view/edu-view.jsx",
-                            lineNumber: 188,
+                            lineNumber: 210,
                             columnNumber: 21
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                             children: [
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                    className: "suggestion-span",
                                     children: "DON'T"
                                 }, void 0, false, {
                                     fileName: "src/components/edu-view/edu-view.jsx",
-                                    lineNumber: 189,
+                                    lineNumber: 211,
                                     columnNumber: 25
                                 }, undefined),
                                 " sleep sitting in a chair or in cramped quarters. Lie down in bed when it is time to sleep."
                             ]
                         }, void 0, true, {
                             fileName: "src/components/edu-view/edu-view.jsx",
-                            lineNumber: 189,
+                            lineNumber: 211,
                             columnNumber: 21
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                             children: [
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                    className: "suggestion-span",
                                     children: "AVOID"
                                 }, void 0, false, {
                                     fileName: "src/components/edu-view/edu-view.jsx",
-                                    lineNumber: 190,
+                                    lineNumber: 212,
                                     columnNumber: 25
                                 }, undefined),
                                 " extreme bending of your spine in any direction."
                             ]
                         }, void 0, true, {
                             fileName: "src/components/edu-view/edu-view.jsx",
-                            lineNumber: 190,
+                            lineNumber: 212,
                             columnNumber: 21
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                             children: [
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                    className: "suggestion-span",
                                     children: "AVOID"
                                 }, void 0, false, {
                                     fileName: "src/components/edu-view/edu-view.jsx",
-                                    lineNumber: 191,
+                                    lineNumber: 213,
                                     columnNumber: 25
                                 }, undefined),
                                 " extreme stretching, reaching, or other over head work."
                             ]
                         }, void 0, true, {
                             fileName: "src/components/edu-view/edu-view.jsx",
-                            lineNumber: 191,
+                            lineNumber: 213,
                             columnNumber: 21
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                             children: [
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                    className: "suggestion-span",
                                     children: "AVOID"
                                 }, void 0, false, {
                                     fileName: "src/components/edu-view/edu-view.jsx",
-                                    lineNumber: 192,
+                                    lineNumber: 214,
                                     columnNumber: 25
                                 }, undefined),
                                 " sudden twists or turns of movement beyond normal limits of motion, especially the neck."
                             ]
                         }, void 0, true, {
                             fileName: "src/components/edu-view/edu-view.jsx",
-                            lineNumber: 192,
+                            lineNumber: 214,
                             columnNumber: 21
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                             children: "When lifting, keep your back straight and bend your knees to minimize the strain on your back."
                         }, void 0, false, {
                             fileName: "src/components/edu-view/edu-view.jsx",
-                            lineNumber: 193,
+                            lineNumber: 215,
                             columnNumber: 21
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                             children: [
                                 "When sitting, choose a chair that has adequate firmness to hold your weight comfortably, and then sit straight with your hips being higher than your knees. ",
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                    className: "suggestion-span",
                                     children: "AVOID"
                                 }, void 0, false, {
                                     fileName: "src/components/edu-view/edu-view.jsx",
-                                    lineNumber: 194,
+                                    lineNumber: 216,
                                     columnNumber: 181
                                 }, undefined),
                                 " recliners."
                             ]
                         }, void 0, true, {
                             fileName: "src/components/edu-view/edu-view.jsx",
-                            lineNumber: 194,
+                            lineNumber: 216,
                             columnNumber: 21
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                             children: "When sleeping, your pillow should be neither too high nor too low. The ideal pillow is one that supports your head so that your neck vertebrae will be level with the rest of your spine."
                         }, void 0, false, {
                             fileName: "src/components/edu-view/edu-view.jsx",
-                            lineNumber: 195,
+                            lineNumber: 217,
                             columnNumber: 21
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/edu-view/edu-view.jsx",
-                    lineNumber: 179,
+                    lineNumber: 201,
                     columnNumber: 17
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                     fileName: "src/components/edu-view/edu-view.jsx",
-                    lineNumber: 198,
+                    lineNumber: 220,
                     columnNumber: 17
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                     children: "The more you understand your body and how it functions, the better equipped you'll be at taking care of yourself to achieve optimal health. Our team of chiropractic professionals empower patients to take charge of your own health and future, educating you about your condition to decrease your need for future care. We've included the Patient Education section on our website to provide you with valuable, practical wellness information which you can incorporate into your lifestyle to improve the quality of your life. We hope you will turn to these pages whenever you have a question about health related issues and urge you to contact our practice at any time to make and appointment with one of our chiropractors."
                 }, void 0, false, {
                     fileName: "src/components/edu-view/edu-view.jsx",
-                    lineNumber: 201,
+                    lineNumber: 223,
                     columnNumber: 17
                 }, undefined)
             ]
         }, void 0, true, {
             fileName: "src/components/edu-view/edu-view.jsx",
-            lineNumber: 5,
+            lineNumber: 7,
             columnNumber: 13
         }, undefined)
     }, void 0, false, {
         fileName: "src/components/edu-view/edu-view.jsx",
-        lineNumber: 4,
+        lineNumber: 6,
         columnNumber: 9
     }, undefined);
 };
@@ -42311,7 +42617,7 @@ $RefreshReg$(_c, "EduView");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","react/jsx-dev-runtime":"iTorj","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"fwfJ4":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","react/jsx-dev-runtime":"iTorj","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react-bootstrap":"3AD9A"}],"fwfJ4":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$ca41 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -42328,7 +42634,7 @@ const MassageView = ()=>{
         className: "massage-view",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                children: "BENEFITS OF MASSAGE"
+                children: "MASSAGE THERAPY"
             }, void 0, false, {
                 fileName: "src/components/massage-view/massage-view.jsx",
                 lineNumber: 5,
@@ -42371,11 +42677,11 @@ var prevRefreshSig = window.$RefreshSig$;
 $parcel$ReactRefreshHelpers$1d99.prelude(module);
 
 try {
-// ContactView
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "ContactView", ()=>ContactView);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _reactBootstrap = require("react-bootstrap");
 const ContactView = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "contact-view",
@@ -42386,306 +42692,377 @@ const ContactView = ()=>{
                     children: "CONTACT US"
                 }, void 0, false, {
                     fileName: "src/components/contact-view/contact-view.jsx",
-                    lineNumber: 6,
+                    lineNumber: 8,
                     columnNumber: 17
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "contact-item",
+                    className: "contact-grid",
                     children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                            children: "Back to Life Chiropractic Center"
-                        }, void 0, false, {
-                            fileName: "src/components/contact-view/contact-view.jsx",
-                            lineNumber: 10,
-                            columnNumber: 21
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                            children: "Address: "
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Card), {
+                            className: "contact-item",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Card).Body, {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                                        children: "Office Location"
+                                    }, void 0, false, {
+                                        fileName: "src/components/contact-view/contact-view.jsx",
+                                        lineNumber: 14,
+                                        columnNumber: 29
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        children: "Address: "
+                                    }, void 0, false, {
+                                        fileName: "src/components/contact-view/contact-view.jsx",
+                                        lineNumber: 16,
+                                        columnNumber: 29
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                        className: "contact-link",
+                                        href: "https://www.google.com/maps/place/Back+To+Life+Chiropractic+Center/@33.042487,-84.9855287,17z/data=!4m15!1m8!3m7!1s0x888b545f731bce73:0xbffcdeffeb728db5!2s1505+Lafayette+Pkwy,+LaGrange,+GA+30241!3b1!8m2!3d33.042487!4d-84.9829538!16s%2Fg%2F11c27tbqz_!3m5!1s0x888b5458d04e73f9:0x496d0c97146f805f!8m2!3d33.042489!4d-84.983016!16s%2Fg%2F1tdygdd9?authuser=0&entry=ttu&g_ep=EgoyMDI0MTAxNi4wIKXMDSoASAFQAw%3D%3D",
+                                        target: "_blank",
+                                        children: "1505 Lafayette Parkway, LaGrange, Georgia 30241, United States"
+                                    }, void 0, false, {
+                                        fileName: "src/components/contact-view/contact-view.jsx",
+                                        lineNumber: 17,
+                                        columnNumber: 29
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                        fileName: "src/components/contact-view/contact-view.jsx",
+                                        lineNumber: 25,
+                                        columnNumber: 29
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        children: "Phone: "
+                                    }, void 0, false, {
+                                        fileName: "src/components/contact-view/contact-view.jsx",
+                                        lineNumber: 27,
+                                        columnNumber: 29
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                        className: "contact-link",
+                                        href: "tel:7068825737",
+                                        target: "_blank",
+                                        rel: "noopener noreferrer",
+                                        children: "(706) 882-5737"
+                                    }, void 0, false, {
+                                        fileName: "src/components/contact-view/contact-view.jsx",
+                                        lineNumber: 28,
+                                        columnNumber: 29
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                        fileName: "src/components/contact-view/contact-view.jsx",
+                                        lineNumber: 37,
+                                        columnNumber: 29
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        children: "Email: "
+                                    }, void 0, false, {
+                                        fileName: "src/components/contact-view/contact-view.jsx",
+                                        lineNumber: 39,
+                                        columnNumber: 29
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                        className: "contact-link",
+                                        href: "mailto:contactus@btlcc.com",
+                                        target: "_blank",
+                                        rel: "noopener noreferrer",
+                                        children: "contactus@btlcc.com"
+                                    }, void 0, false, {
+                                        fileName: "src/components/contact-view/contact-view.jsx",
+                                        lineNumber: 40,
+                                        columnNumber: 29
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/contact-view/contact-view.jsx",
+                                lineNumber: 13,
+                                columnNumber: 25
+                            }, undefined)
                         }, void 0, false, {
                             fileName: "src/components/contact-view/contact-view.jsx",
                             lineNumber: 12,
                             columnNumber: 21
                         }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                            className: "contact-link",
-                            href: "https://www.google.com/maps/place/Back+To+Life+Chiropractic+Center/@33.042487,-84.9855287,17z/data=!4m15!1m8!3m7!1s0x888b545f731bce73:0xbffcdeffeb728db5!2s1505+Lafayette+Pkwy,+LaGrange,+GA+30241!3b1!8m2!3d33.042487!4d-84.9829538!16s%2Fg%2F11c27tbqz_!3m5!1s0x888b5458d04e73f9:0x496d0c97146f805f!8m2!3d33.042489!4d-84.983016!16s%2Fg%2F1tdygdd9?authuser=0&entry=ttu&g_ep=EgoyMDI0MTAxNi4wIKXMDSoASAFQAw%3D%3D",
-                            target: "_blank",
-                            children: "1505 Lafayette Parkway, LaGrange, Georgia 30241, United States"
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Card), {
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Card).Body, {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                                        children: "Hours of Operation"
+                                    }, void 0, false, {
+                                        fileName: "src/components/contact-view/contact-view.jsx",
+                                        lineNumber: 54,
+                                        columnNumber: 29
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("table", {
+                                        className: "hours-table",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tr", {
+                                                className: "hours-row",
+                                                children: [
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                                        className: "day-cell",
+                                                        children: "Monday"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/contact-view/contact-view.jsx",
+                                                        lineNumber: 58,
+                                                        columnNumber: 37
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                                        className: "blank-cell"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/contact-view/contact-view.jsx",
+                                                        lineNumber: 59,
+                                                        columnNumber: 37
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                                        className: "hours-cell",
+                                                        children: "9 AM - 1 PM, 3 PM - 6PM"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/contact-view/contact-view.jsx",
+                                                        lineNumber: 60,
+                                                        columnNumber: 37
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/contact-view/contact-view.jsx",
+                                                lineNumber: 57,
+                                                columnNumber: 33
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tr", {
+                                                className: "hours-row",
+                                                children: [
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                                        className: "day-cell",
+                                                        children: "Tuesday"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/contact-view/contact-view.jsx",
+                                                        lineNumber: 64,
+                                                        columnNumber: 37
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                                        className: "blank-cell"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/contact-view/contact-view.jsx",
+                                                        lineNumber: 65,
+                                                        columnNumber: 37
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                                        className: "hours-cell",
+                                                        children: "7 AM - 1 PM"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/contact-view/contact-view.jsx",
+                                                        lineNumber: 66,
+                                                        columnNumber: 37
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/contact-view/contact-view.jsx",
+                                                lineNumber: 63,
+                                                columnNumber: 33
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tr", {
+                                                className: "hours-row",
+                                                children: [
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                                        className: "day-cell",
+                                                        children: "Wednesday"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/contact-view/contact-view.jsx",
+                                                        lineNumber: 70,
+                                                        columnNumber: 37
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                                        className: "blank-cell"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/contact-view/contact-view.jsx",
+                                                        lineNumber: 71,
+                                                        columnNumber: 37
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                                        className: "hours-cell",
+                                                        children: "9 AM - 1 PM, 3 PM - 6PM"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/contact-view/contact-view.jsx",
+                                                        lineNumber: 72,
+                                                        columnNumber: 37
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/contact-view/contact-view.jsx",
+                                                lineNumber: 69,
+                                                columnNumber: 33
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tr", {
+                                                className: "hours-row",
+                                                children: [
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                                        className: "day-cell",
+                                                        children: "Thursday"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/contact-view/contact-view.jsx",
+                                                        lineNumber: 76,
+                                                        columnNumber: 37
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                                        className: "blank-cell"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/contact-view/contact-view.jsx",
+                                                        lineNumber: 77,
+                                                        columnNumber: 37
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                                        className: "hours-cell",
+                                                        children: "9 AM - 1 PM"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/contact-view/contact-view.jsx",
+                                                        lineNumber: 78,
+                                                        columnNumber: 37
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/contact-view/contact-view.jsx",
+                                                lineNumber: 75,
+                                                columnNumber: 33
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tr", {
+                                                className: "hours-row",
+                                                children: [
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                                        className: "day-cell",
+                                                        children: "Friday"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/contact-view/contact-view.jsx",
+                                                        lineNumber: 82,
+                                                        columnNumber: 37
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                                        className: "blank-cell"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/contact-view/contact-view.jsx",
+                                                        lineNumber: 83,
+                                                        columnNumber: 37
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                                        className: "hours-cell",
+                                                        children: "9 AM - 1 PM, 3 PM - 6PM"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/contact-view/contact-view.jsx",
+                                                        lineNumber: 84,
+                                                        columnNumber: 37
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/contact-view/contact-view.jsx",
+                                                lineNumber: 81,
+                                                columnNumber: 33
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tr", {
+                                                className: "hours-row",
+                                                children: [
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                                        className: "day-cell",
+                                                        children: "Saturday"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/contact-view/contact-view.jsx",
+                                                        lineNumber: 88,
+                                                        columnNumber: 37
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                                        className: "blank-cell"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/contact-view/contact-view.jsx",
+                                                        lineNumber: 89,
+                                                        columnNumber: 37
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                                        className: "hours-cell",
+                                                        children: "Closed"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/contact-view/contact-view.jsx",
+                                                        lineNumber: 90,
+                                                        columnNumber: 37
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/contact-view/contact-view.jsx",
+                                                lineNumber: 87,
+                                                columnNumber: 33
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tr", {
+                                                className: "hours-row",
+                                                children: [
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                                        className: "day-cell",
+                                                        children: "Sunday"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/contact-view/contact-view.jsx",
+                                                        lineNumber: 94,
+                                                        columnNumber: 37
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                                        className: "blank-cell"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/contact-view/contact-view.jsx",
+                                                        lineNumber: 95,
+                                                        columnNumber: 37
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                                        className: "hours-cell",
+                                                        children: "Closed"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/contact-view/contact-view.jsx",
+                                                        lineNumber: 96,
+                                                        columnNumber: 37
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/contact-view/contact-view.jsx",
+                                                lineNumber: 93,
+                                                columnNumber: 33
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/contact-view/contact-view.jsx",
+                                        lineNumber: 56,
+                                        columnNumber: 29
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/contact-view/contact-view.jsx",
+                                lineNumber: 53,
+                                columnNumber: 25
+                            }, undefined)
                         }, void 0, false, {
                             fileName: "src/components/contact-view/contact-view.jsx",
-                            lineNumber: 13,
-                            columnNumber: 21
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                            fileName: "src/components/contact-view/contact-view.jsx",
-                            lineNumber: 21,
-                            columnNumber: 21
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                            children: "Phone: "
-                        }, void 0, false, {
-                            fileName: "src/components/contact-view/contact-view.jsx",
-                            lineNumber: 23,
-                            columnNumber: 21
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                            className: "contact-link",
-                            href: "tel:7068825737",
-                            target: "_blank",
-                            rel: "noopener noreferrer",
-                            children: "(706) 882-5737"
-                        }, void 0, false, {
-                            fileName: "src/components/contact-view/contact-view.jsx",
-                            lineNumber: 24,
-                            columnNumber: 21
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                            fileName: "src/components/contact-view/contact-view.jsx",
-                            lineNumber: 33,
-                            columnNumber: 21
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                            children: "Email: "
-                        }, void 0, false, {
-                            fileName: "src/components/contact-view/contact-view.jsx",
-                            lineNumber: 35,
-                            columnNumber: 21
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                            className: "contact-link",
-                            href: "mailto:contactus@btlcc.com",
-                            target: "_blank",
-                            rel: "noopener noreferrer",
-                            children: "contactus@btlcc.com"
-                        }, void 0, false, {
-                            fileName: "src/components/contact-view/contact-view.jsx",
-                            lineNumber: 36,
+                            lineNumber: 52,
                             columnNumber: 21
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/contact-view/contact-view.jsx",
-                    lineNumber: 9,
+                    lineNumber: 10,
                     columnNumber: 17
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "contact-item",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                            children: "Hours"
-                        }, void 0, false, {
-                            fileName: "src/components/contact-view/contact-view.jsx",
-                            lineNumber: 48,
-                            columnNumber: 21
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("table", {
-                            className: "hours-table",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tr", {
-                                    className: "hours-row",
-                                    children: [
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
-                                            className: "day-cell",
-                                            children: "Monday"
-                                        }, void 0, false, {
-                                            fileName: "src/components/contact-view/contact-view.jsx",
-                                            lineNumber: 52,
-                                            columnNumber: 29
-                                        }, undefined),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
-                                            className: "hours-cell",
-                                            children: "9 AM - 1 PM, 3 PM - 6PM"
-                                        }, void 0, false, {
-                                            fileName: "src/components/contact-view/contact-view.jsx",
-                                            lineNumber: 53,
-                                            columnNumber: 29
-                                        }, undefined)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "src/components/contact-view/contact-view.jsx",
-                                    lineNumber: 51,
-                                    columnNumber: 25
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tr", {
-                                    className: "hours-row",
-                                    children: [
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
-                                            className: "day-cell",
-                                            children: "Tuesday"
-                                        }, void 0, false, {
-                                            fileName: "src/components/contact-view/contact-view.jsx",
-                                            lineNumber: 57,
-                                            columnNumber: 29
-                                        }, undefined),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
-                                            className: "hours-cell",
-                                            children: "7 AM - 1 PM"
-                                        }, void 0, false, {
-                                            fileName: "src/components/contact-view/contact-view.jsx",
-                                            lineNumber: 58,
-                                            columnNumber: 29
-                                        }, undefined)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "src/components/contact-view/contact-view.jsx",
-                                    lineNumber: 56,
-                                    columnNumber: 25
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tr", {
-                                    className: "hours-row",
-                                    children: [
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
-                                            className: "day-cell",
-                                            children: "Wednesday"
-                                        }, void 0, false, {
-                                            fileName: "src/components/contact-view/contact-view.jsx",
-                                            lineNumber: 62,
-                                            columnNumber: 29
-                                        }, undefined),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
-                                            className: "hours-cell",
-                                            children: "9 AM - 1 PM, 3 PM - 6PM"
-                                        }, void 0, false, {
-                                            fileName: "src/components/contact-view/contact-view.jsx",
-                                            lineNumber: 63,
-                                            columnNumber: 29
-                                        }, undefined)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "src/components/contact-view/contact-view.jsx",
-                                    lineNumber: 61,
-                                    columnNumber: 25
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tr", {
-                                    className: "hours-row",
-                                    children: [
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
-                                            className: "day-cell",
-                                            children: "Thursday"
-                                        }, void 0, false, {
-                                            fileName: "src/components/contact-view/contact-view.jsx",
-                                            lineNumber: 67,
-                                            columnNumber: 29
-                                        }, undefined),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
-                                            className: "hours-cell",
-                                            children: "9 AM - 1 PM"
-                                        }, void 0, false, {
-                                            fileName: "src/components/contact-view/contact-view.jsx",
-                                            lineNumber: 68,
-                                            columnNumber: 29
-                                        }, undefined)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "src/components/contact-view/contact-view.jsx",
-                                    lineNumber: 66,
-                                    columnNumber: 25
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tr", {
-                                    className: "hours-row",
-                                    children: [
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
-                                            className: "day-cell",
-                                            children: "Friday"
-                                        }, void 0, false, {
-                                            fileName: "src/components/contact-view/contact-view.jsx",
-                                            lineNumber: 72,
-                                            columnNumber: 29
-                                        }, undefined),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
-                                            className: "hours-cell",
-                                            children: "9 AM - 1 PM, 3 PM - 6PM"
-                                        }, void 0, false, {
-                                            fileName: "src/components/contact-view/contact-view.jsx",
-                                            lineNumber: 73,
-                                            columnNumber: 29
-                                        }, undefined)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "src/components/contact-view/contact-view.jsx",
-                                    lineNumber: 71,
-                                    columnNumber: 25
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tr", {
-                                    className: "hours-row",
-                                    children: [
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
-                                            className: "day-cell",
-                                            children: "Saturday"
-                                        }, void 0, false, {
-                                            fileName: "src/components/contact-view/contact-view.jsx",
-                                            lineNumber: 77,
-                                            columnNumber: 29
-                                        }, undefined),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
-                                            className: "hours-cell",
-                                            children: "Closed"
-                                        }, void 0, false, {
-                                            fileName: "src/components/contact-view/contact-view.jsx",
-                                            lineNumber: 78,
-                                            columnNumber: 29
-                                        }, undefined)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "src/components/contact-view/contact-view.jsx",
-                                    lineNumber: 76,
-                                    columnNumber: 25
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tr", {
-                                    className: "hours-row",
-                                    children: [
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
-                                            className: "day-cell",
-                                            children: "Sunday"
-                                        }, void 0, false, {
-                                            fileName: "src/components/contact-view/contact-view.jsx",
-                                            lineNumber: 82,
-                                            columnNumber: 29
-                                        }, undefined),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
-                                            className: "hours-cell",
-                                            children: "Closed"
-                                        }, void 0, false, {
-                                            fileName: "src/components/contact-view/contact-view.jsx",
-                                            lineNumber: 83,
-                                            columnNumber: 29
-                                        }, undefined)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "src/components/contact-view/contact-view.jsx",
-                                    lineNumber: 81,
-                                    columnNumber: 25
-                                }, undefined)
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/components/contact-view/contact-view.jsx",
-                            lineNumber: 50,
-                            columnNumber: 21
-                        }, undefined)
-                    ]
-                }, void 0, true, {
-                    fileName: "src/components/contact-view/contact-view.jsx",
-                    lineNumber: 47,
-                    columnNumber: 17
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "contact-item",
+                    className: "action-item",
                     children: [
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
                             children: "Visit or Call to Schedule an Appointment"
                         }, void 0, false, {
                             fileName: "src/components/contact-view/contact-view.jsx",
-                            lineNumber: 90,
+                            lineNumber: 105,
                             columnNumber: 21
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                            className: "contact-text",
                             children: "Please contact us directly with any questions, comments, or scheduling inquiries you may have."
                         }, void 0, false, {
                             fileName: "src/components/contact-view/contact-view.jsx",
-                            lineNumber: 92,
+                            lineNumber: 107,
                             columnNumber: 21
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                            className: "contact-text",
                             children: [
                                 "Email any documents for your appointment ",
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -42694,31 +43071,31 @@ const ContactView = ()=>{
                                     children: "here"
                                 }, void 0, false, {
                                     fileName: "src/components/contact-view/contact-view.jsx",
-                                    lineNumber: 94,
-                                    columnNumber: 65
+                                    lineNumber: 109,
+                                    columnNumber: 90
                                 }, undefined),
                                 "."
                             ]
                         }, void 0, true, {
                             fileName: "src/components/contact-view/contact-view.jsx",
-                            lineNumber: 94,
+                            lineNumber: 109,
                             columnNumber: 21
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/contact-view/contact-view.jsx",
-                    lineNumber: 89,
+                    lineNumber: 104,
                     columnNumber: 17
                 }, undefined)
             ]
         }, void 0, true, {
             fileName: "src/components/contact-view/contact-view.jsx",
-            lineNumber: 5,
+            lineNumber: 7,
             columnNumber: 13
         }, undefined)
     }, void 0, false, {
         fileName: "src/components/contact-view/contact-view.jsx",
-        lineNumber: 4,
+        lineNumber: 6,
         columnNumber: 9
     }, undefined);
 };
@@ -42731,7 +43108,7 @@ $RefreshReg$(_c, "ContactView");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"bsPVM":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react-bootstrap":"3AD9A"}],"bsPVM":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$abf5 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -42746,7 +43123,7 @@ var _react = require("react");
 var _reactBootstrap = require("react-bootstrap");
 var _reactRouterDom = require("react-router-dom");
 var _navigationBarScss = require("./navigation-bar.scss");
-var _backToLifePng = require("../../../files/back-to-life.png");
+var _backToLifePng = require("../../../files/img/back-to-life.png");
 var _backToLifePngDefault = parcelHelpers.interopDefault(_backToLifePng);
 var _s = $RefreshSig$();
 const NavigationBar = ()=>{
@@ -42795,20 +43172,22 @@ const NavigationBar = ()=>{
                     lineNumber: 28,
                     columnNumber: 17
                 }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Button), {
-                        className: "business-name",
-                        as: (0, _reactRouterDom.Link),
-                        to: "/",
-                        children: "Back to Life Chiropractic Center"
-                    }, void 0, false, {
-                        fileName: "src/components/navigation-bar/navigation-bar.jsx",
-                        lineNumber: 39,
-                        columnNumber: 23
-                    }, undefined)
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                    className: "business-name",
+                    href: "/",
+                    children: "Back to Life Chiropractic Center"
                 }, void 0, false, {
                     fileName: "src/components/navigation-bar/navigation-bar.jsx",
                     lineNumber: 39,
+                    columnNumber: 17
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                    href: "tel:706.882.5737",
+                    className: "phone-link",
+                    children: "706.882.5737"
+                }, void 0, false, {
+                    fileName: "src/components/navigation-bar/navigation-bar.jsx",
+                    lineNumber: 42,
                     columnNumber: 17
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Navbar).Toggle, {
@@ -42816,7 +43195,7 @@ const NavigationBar = ()=>{
                     onClick: handleToggle
                 }, void 0, false, {
                     fileName: "src/components/navigation-bar/navigation-bar.jsx",
-                    lineNumber: 42,
+                    lineNumber: 45,
                     columnNumber: 17
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Navbar).Collapse, {
@@ -42828,71 +43207,71 @@ const NavigationBar = ()=>{
                                 as: (0, _reactRouterDom.Link),
                                 to: "/",
                                 onClick: handleNav,
-                                children: "HOME"
+                                children: "Home"
                             }, void 0, false, {
                                 fileName: "src/components/navigation-bar/navigation-bar.jsx",
-                                lineNumber: 48,
+                                lineNumber: 51,
                                 columnNumber: 25
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Nav).Link, {
                                 as: (0, _reactRouterDom.Link),
                                 to: "/about",
                                 onClick: handleNav,
-                                children: "ABOUT US"
+                                children: "About Us"
                             }, void 0, false, {
                                 fileName: "src/components/navigation-bar/navigation-bar.jsx",
-                                lineNumber: 53,
+                                lineNumber: 56,
                                 columnNumber: 25
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Nav).Link, {
                                 as: (0, _reactRouterDom.Link),
                                 to: "/new-patient-forms",
                                 onClick: handleNav,
-                                children: "NEW PATIENT FORMS"
+                                children: "New Patient Forms"
                             }, void 0, false, {
                                 fileName: "src/components/navigation-bar/navigation-bar.jsx",
-                                lineNumber: 58,
+                                lineNumber: 61,
                                 columnNumber: 25
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Nav).Link, {
                                 as: (0, _reactRouterDom.Link),
                                 to: "/patient-education",
                                 onClick: handleNav,
-                                children: "PATIENT EDUCATION"
+                                children: "Patient Education"
                             }, void 0, false, {
                                 fileName: "src/components/navigation-bar/navigation-bar.jsx",
-                                lineNumber: 63,
+                                lineNumber: 66,
                                 columnNumber: 25
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Nav).Link, {
                                 as: (0, _reactRouterDom.Link),
                                 to: "/massage-therapy",
                                 onClick: handleNav,
-                                children: "MASSAGE THERAPY"
+                                children: "Massage Therapy"
                             }, void 0, false, {
                                 fileName: "src/components/navigation-bar/navigation-bar.jsx",
-                                lineNumber: 68,
+                                lineNumber: 71,
                                 columnNumber: 25
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Nav).Link, {
                                 as: (0, _reactRouterDom.Link),
                                 to: "/contact-us",
                                 onClick: handleNav,
-                                children: "CONTACT US"
+                                children: "Contact Us"
                             }, void 0, false, {
                                 fileName: "src/components/navigation-bar/navigation-bar.jsx",
-                                lineNumber: 73,
+                                lineNumber: 76,
                                 columnNumber: 25
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/navigation-bar/navigation-bar.jsx",
-                        lineNumber: 46,
+                        lineNumber: 49,
                         columnNumber: 21
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/components/navigation-bar/navigation-bar.jsx",
-                    lineNumber: 45,
+                    lineNumber: 48,
                     columnNumber: 17
                 }, undefined)
             ]
@@ -42917,21 +43296,23 @@ $RefreshReg$(_c, "NavigationBar");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-bootstrap":"3AD9A","react-router-dom":"9xmpe","./navigation-bar.scss":"dnXvl","../../../files/back-to-life.png":"idkO7","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"dnXvl":[function() {},{}],"idkO7":[function(require,module,exports) {
-module.exports = require("185c9cd0a0a45ad6").getBundleURL("byUka") + "back-to-life.e69dfe4f.png" + "?" + Date.now();
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-bootstrap":"3AD9A","react-router-dom":"9xmpe","./navigation-bar.scss":"dnXvl","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../../../files/img/back-to-life.png":"i7h8C"}],"dnXvl":[function() {},{}],"i7h8C":[function(require,module,exports) {
+module.exports = require("60744d74e84d4bad").getBundleURL("byUka") + "back-to-life.2da8ecb8.png" + "?" + Date.now();
 
-},{"185c9cd0a0a45ad6":"lgJ39"}],"eBaMl":[function() {},{}],"gjkeG":[function(require,module,exports) {
+},{"60744d74e84d4bad":"lgJ39"}],"eBaMl":[function() {},{}],"gjkeG":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$ac88 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
 $parcel$ReactRefreshHelpers$ac88.prelude(module);
 
 try {
-// AboutView
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "AboutView", ()=>AboutView);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _reactBootstrap = require("react-bootstrap");
+var _personPlaceholderPng = require("../../../files/img/person-placeholder.png");
+var _personPlaceholderPngDefault = parcelHelpers.interopDefault(_personPlaceholderPng);
 const AboutView = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "about-view",
@@ -42943,109 +43324,142 @@ const AboutView = ()=>{
                         children: "ABOUT US"
                     }, void 0, false, {
                         fileName: "src/components/about-view/about-view.jsx",
-                        lineNumber: 7,
+                        lineNumber: 11,
                         columnNumber: 17
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "about-item",
+                        className: "about-grid",
                         children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                                children: "The Importance of Your Health"
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Card), {
+                                className: "about-item shadow",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Card).Body, {
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                                            children: "The Importance of Your Health"
+                                        }, void 0, false, {
+                                            fileName: "src/components/about-view/about-view.jsx",
+                                            lineNumber: 16,
+                                            columnNumber: 29
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                            className: "about-desc",
+                                            children: "Our chiropractor puts your specific needs first. We are proud to provide a high quality level of customer service, chiropractic experience, and commitment to health and wellness to all our patients. Our goal is to improve your lifestyle by caring for your health."
+                                        }, void 0, false, {
+                                            fileName: "src/components/about-view/about-view.jsx",
+                                            lineNumber: 18,
+                                            columnNumber: 29
+                                        }, undefined)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/about-view/about-view.jsx",
+                                    lineNumber: 15,
+                                    columnNumber: 25
+                                }, undefined)
                             }, void 0, false, {
                                 fileName: "src/components/about-view/about-view.jsx",
-                                lineNumber: 10,
+                                lineNumber: 14,
                                 columnNumber: 21
                             }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                className: "about-desc",
-                                children: "Our chiropractor puts your specific needs first. We are proud to provide a high quality level of customer service, chiropractic experience, and commitment to health and wellness to all our patients. Our goal is to improve your lifestyle by caring for your health."
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Card), {
+                                className: "about-item shadow",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Card).Body, {
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                                            children: "Experienced Knowledge"
+                                        }, void 0, false, {
+                                            fileName: "src/components/about-view/about-view.jsx",
+                                            lineNumber: 26,
+                                            columnNumber: 29
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                            className: "about-desc",
+                                            children: "With years of experience, our chiropractors are capable of analyzing your body and creating a custom pain relief and rehabilitation plan to benefit your health. We understand the importance of educating you on chiropractic care so that you can heal quickly."
+                                        }, void 0, false, {
+                                            fileName: "src/components/about-view/about-view.jsx",
+                                            lineNumber: 28,
+                                            columnNumber: 29
+                                        }, undefined)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/about-view/about-view.jsx",
+                                    lineNumber: 25,
+                                    columnNumber: 25
+                                }, undefined)
                             }, void 0, false, {
                                 fileName: "src/components/about-view/about-view.jsx",
-                                lineNumber: 12,
-                                columnNumber: 21
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/components/about-view/about-view.jsx",
-                        lineNumber: 9,
-                        columnNumber: 17
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "about-item",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                                children: "Experienced Knowledge"
-                            }, void 0, false, {
-                                fileName: "src/components/about-view/about-view.jsx",
-                                lineNumber: 18,
-                                columnNumber: 21
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                className: "about-desc",
-                                children: "With years of experience, our chiropractors are capable of analyzing your body and creating a custom pain relief and rehabilitation plan to benefit your health. We understand the importance of educating you on chiropractic care so that you can heal quickly."
-                            }, void 0, false, {
-                                fileName: "src/components/about-view/about-view.jsx",
-                                lineNumber: 20,
-                                columnNumber: 21
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/components/about-view/about-view.jsx",
-                        lineNumber: 17,
-                        columnNumber: 17
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "about-item",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                                children: "Chiropractors Who Care"
-                            }, void 0, false, {
-                                fileName: "src/components/about-view/about-view.jsx",
-                                lineNumber: 26,
+                                lineNumber: 24,
                                 columnNumber: 21
                             }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                className: "about-desc",
-                                children: "Not only will our team treat your existing conditions, we strive to prevent pain and illness from reoccurring. We strive to help you improve your quality of life, achieve your wellness goals, and heal your body to live your best life possible."
-                            }, void 0, false, {
-                                fileName: "src/components/about-view/about-view.jsx",
-                                lineNumber: 28,
-                                columnNumber: 21
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/components/about-view/about-view.jsx",
-                        lineNumber: 25,
-                        columnNumber: 17
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "about-item",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                                children: "Walk-In Clinic"
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Card), {
+                                className: "about-item shadow",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Card).Body, {
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                                            children: "Chiropractors Who Care"
+                                        }, void 0, false, {
+                                            fileName: "src/components/about-view/about-view.jsx",
+                                            lineNumber: 36,
+                                            columnNumber: 29
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                            className: "about-desc",
+                                            children: "Not only will our team treat your existing conditions, we strive to prevent pain and illness from reoccurring. We strive to help you improve your quality of life, achieve your wellness goals, and heal your body to live your best life possible."
+                                        }, void 0, false, {
+                                            fileName: "src/components/about-view/about-view.jsx",
+                                            lineNumber: 38,
+                                            columnNumber: 29
+                                        }, undefined)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/about-view/about-view.jsx",
+                                    lineNumber: 35,
+                                    columnNumber: 25
+                                }, undefined)
                             }, void 0, false, {
                                 fileName: "src/components/about-view/about-view.jsx",
                                 lineNumber: 34,
                                 columnNumber: 21
                             }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                className: "about-desc",
-                                children: "We want to be here for the convenience of the patient. After the initial new patient appointment, patients will no longer need to schedule appointments."
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Card), {
+                                className: "about-item shadow",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Card).Body, {
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                                            children: "Walk-In Clinic"
+                                        }, void 0, false, {
+                                            fileName: "src/components/about-view/about-view.jsx",
+                                            lineNumber: 46,
+                                            columnNumber: 29
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                            className: "about-desc",
+                                            children: "We want to be here for the convenience of the patient. After the initial new patient appointment, patients will no longer need to schedule appointments."
+                                        }, void 0, false, {
+                                            fileName: "src/components/about-view/about-view.jsx",
+                                            lineNumber: 48,
+                                            columnNumber: 29
+                                        }, undefined)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/about-view/about-view.jsx",
+                                    lineNumber: 45,
+                                    columnNumber: 25
+                                }, undefined)
                             }, void 0, false, {
                                 fileName: "src/components/about-view/about-view.jsx",
-                                lineNumber: 36,
+                                lineNumber: 44,
                                 columnNumber: 21
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/about-view/about-view.jsx",
-                        lineNumber: 33,
+                        lineNumber: 13,
                         columnNumber: 17
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/about-view/about-view.jsx",
-                lineNumber: 6,
+                lineNumber: 10,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -43055,11 +43469,11 @@ const AboutView = ()=>{
                         children: "MEET OUR STAFF"
                     }, void 0, false, {
                         fileName: "src/components/about-view/about-view.jsx",
-                        lineNumber: 44,
+                        lineNumber: 58,
                         columnNumber: 17
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "staff-list",
+                        className: "staff-grid",
                         children: [
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                 className: "staff-item",
@@ -43068,14 +43482,30 @@ const AboutView = ()=>{
                                         children: "Dr. Tammi Kaminsky"
                                     }, void 0, false, {
                                         fileName: "src/components/about-view/about-view.jsx",
-                                        lineNumber: 48,
+                                        lineNumber: 62,
                                         columnNumber: 25
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
                                         children: "President/Owner"
                                     }, void 0, false, {
                                         fileName: "src/components/about-view/about-view.jsx",
-                                        lineNumber: 49,
+                                        lineNumber: 63,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Figure), {
+                                        className: "figure-wrapper",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Figure).Image, {
+                                            src: (0, _personPlaceholderPngDefault.default),
+                                            className: "staff-img",
+                                            alt: "staff member"
+                                        }, void 0, false, {
+                                            fileName: "src/components/about-view/about-view.jsx",
+                                            lineNumber: 66,
+                                            columnNumber: 29
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "src/components/about-view/about-view.jsx",
+                                        lineNumber: 65,
                                         columnNumber: 25
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -43084,18 +43514,18 @@ const AboutView = ()=>{
                                             children: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
                                         }, void 0, false, {
                                             fileName: "src/components/about-view/about-view.jsx",
-                                            lineNumber: 52,
+                                            lineNumber: 74,
                                             columnNumber: 29
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "src/components/about-view/about-view.jsx",
-                                        lineNumber: 51,
+                                        lineNumber: 73,
                                         columnNumber: 25
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/about-view/about-view.jsx",
-                                lineNumber: 47,
+                                lineNumber: 61,
                                 columnNumber: 21
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -43105,14 +43535,30 @@ const AboutView = ()=>{
                                         children: "Dr. Rob Stevens"
                                     }, void 0, false, {
                                         fileName: "src/components/about-view/about-view.jsx",
-                                        lineNumber: 57,
+                                        lineNumber: 79,
                                         columnNumber: 25
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
                                         children: "Chiropractor"
                                     }, void 0, false, {
                                         fileName: "src/components/about-view/about-view.jsx",
-                                        lineNumber: 58,
+                                        lineNumber: 80,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Figure), {
+                                        className: "figure-wrapper",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Figure).Image, {
+                                            src: (0, _personPlaceholderPngDefault.default),
+                                            className: "staff-img",
+                                            alt: "staff member"
+                                        }, void 0, false, {
+                                            fileName: "src/components/about-view/about-view.jsx",
+                                            lineNumber: 83,
+                                            columnNumber: 29
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "src/components/about-view/about-view.jsx",
+                                        lineNumber: 82,
                                         columnNumber: 25
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -43121,18 +43567,18 @@ const AboutView = ()=>{
                                             children: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
                                         }, void 0, false, {
                                             fileName: "src/components/about-view/about-view.jsx",
-                                            lineNumber: 61,
+                                            lineNumber: 91,
                                             columnNumber: 29
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "src/components/about-view/about-view.jsx",
-                                        lineNumber: 60,
+                                        lineNumber: 90,
                                         columnNumber: 25
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/about-view/about-view.jsx",
-                                lineNumber: 56,
+                                lineNumber: 78,
                                 columnNumber: 21
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -43140,147 +43586,52 @@ const AboutView = ()=>{
                                 children: [
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
                                         children: "Lorem Ipsum"
-                                    }, void 0, false, {
-                                        fileName: "src/components/about-view/about-view.jsx",
-                                        lineNumber: 66,
-                                        columnNumber: 25
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                        children: "Lorem Ipsum"
-                                    }, void 0, false, {
-                                        fileName: "src/components/about-view/about-view.jsx",
-                                        lineNumber: 67,
-                                        columnNumber: 25
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "staff-desc",
-                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                            children: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-                                        }, void 0, false, {
-                                            fileName: "src/components/about-view/about-view.jsx",
-                                            lineNumber: 70,
-                                            columnNumber: 29
-                                        }, undefined)
-                                    }, void 0, false, {
-                                        fileName: "src/components/about-view/about-view.jsx",
-                                        lineNumber: 69,
-                                        columnNumber: 25
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/components/about-view/about-view.jsx",
-                                lineNumber: 65,
-                                columnNumber: 21
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "staff-item",
-                                children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                                        children: "Lorem Ipsum"
-                                    }, void 0, false, {
-                                        fileName: "src/components/about-view/about-view.jsx",
-                                        lineNumber: 75,
-                                        columnNumber: 25
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                        children: "Lorem Ipsum"
-                                    }, void 0, false, {
-                                        fileName: "src/components/about-view/about-view.jsx",
-                                        lineNumber: 76,
-                                        columnNumber: 25
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "staff-desc",
-                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                            children: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-                                        }, void 0, false, {
-                                            fileName: "src/components/about-view/about-view.jsx",
-                                            lineNumber: 79,
-                                            columnNumber: 29
-                                        }, undefined)
-                                    }, void 0, false, {
-                                        fileName: "src/components/about-view/about-view.jsx",
-                                        lineNumber: 78,
-                                        columnNumber: 25
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/components/about-view/about-view.jsx",
-                                lineNumber: 74,
-                                columnNumber: 21
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "staff-item",
-                                children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                                        children: "Lorem Ipsum"
-                                    }, void 0, false, {
-                                        fileName: "src/components/about-view/about-view.jsx",
-                                        lineNumber: 84,
-                                        columnNumber: 25
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                        children: "Lorem Ipsum"
-                                    }, void 0, false, {
-                                        fileName: "src/components/about-view/about-view.jsx",
-                                        lineNumber: 85,
-                                        columnNumber: 25
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "staff-desc",
-                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                            children: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-                                        }, void 0, false, {
-                                            fileName: "src/components/about-view/about-view.jsx",
-                                            lineNumber: 88,
-                                            columnNumber: 29
-                                        }, undefined)
-                                    }, void 0, false, {
-                                        fileName: "src/components/about-view/about-view.jsx",
-                                        lineNumber: 87,
-                                        columnNumber: 25
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/components/about-view/about-view.jsx",
-                                lineNumber: 83,
-                                columnNumber: 21
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "staff-item",
-                                children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                                        children: "Lorem Ipsum"
-                                    }, void 0, false, {
-                                        fileName: "src/components/about-view/about-view.jsx",
-                                        lineNumber: 93,
-                                        columnNumber: 25
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                        children: "Lorem Ipsum"
-                                    }, void 0, false, {
-                                        fileName: "src/components/about-view/about-view.jsx",
-                                        lineNumber: 94,
-                                        columnNumber: 25
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "staff-desc",
-                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                            children: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-                                        }, void 0, false, {
-                                            fileName: "src/components/about-view/about-view.jsx",
-                                            lineNumber: 97,
-                                            columnNumber: 29
-                                        }, undefined)
                                     }, void 0, false, {
                                         fileName: "src/components/about-view/about-view.jsx",
                                         lineNumber: 96,
                                         columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                        children: "Lorem Ipsum"
+                                    }, void 0, false, {
+                                        fileName: "src/components/about-view/about-view.jsx",
+                                        lineNumber: 97,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Figure), {
+                                        className: "figure-wrapper",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Figure).Image, {
+                                            src: (0, _personPlaceholderPngDefault.default),
+                                            className: "staff-img",
+                                            alt: "staff member"
+                                        }, void 0, false, {
+                                            fileName: "src/components/about-view/about-view.jsx",
+                                            lineNumber: 100,
+                                            columnNumber: 29
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "src/components/about-view/about-view.jsx",
+                                        lineNumber: 99,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "staff-desc",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                            children: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                                        }, void 0, false, {
+                                            fileName: "src/components/about-view/about-view.jsx",
+                                            lineNumber: 108,
+                                            columnNumber: 29
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "src/components/about-view/about-view.jsx",
+                                        lineNumber: 107,
+                                        columnNumber: 25
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/about-view/about-view.jsx",
-                                lineNumber: 92,
+                                lineNumber: 95,
                                 columnNumber: 21
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -43290,14 +43641,30 @@ const AboutView = ()=>{
                                         children: "Lorem Ipsum"
                                     }, void 0, false, {
                                         fileName: "src/components/about-view/about-view.jsx",
-                                        lineNumber: 102,
+                                        lineNumber: 113,
                                         columnNumber: 25
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
                                         children: "Lorem Ipsum"
                                     }, void 0, false, {
                                         fileName: "src/components/about-view/about-view.jsx",
-                                        lineNumber: 103,
+                                        lineNumber: 114,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Figure), {
+                                        className: "figure-wrapper",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Figure).Image, {
+                                            src: (0, _personPlaceholderPngDefault.default),
+                                            className: "staff-img",
+                                            alt: "staff member"
+                                        }, void 0, false, {
+                                            fileName: "src/components/about-view/about-view.jsx",
+                                            lineNumber: 117,
+                                            columnNumber: 29
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "src/components/about-view/about-view.jsx",
+                                        lineNumber: 116,
                                         columnNumber: 25
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -43306,36 +43673,195 @@ const AboutView = ()=>{
                                             children: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
                                         }, void 0, false, {
                                             fileName: "src/components/about-view/about-view.jsx",
-                                            lineNumber: 106,
+                                            lineNumber: 125,
                                             columnNumber: 29
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "src/components/about-view/about-view.jsx",
-                                        lineNumber: 105,
+                                        lineNumber: 124,
                                         columnNumber: 25
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/about-view/about-view.jsx",
-                                lineNumber: 101,
+                                lineNumber: 112,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "staff-item",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                                        children: "Lorem Ipsum"
+                                    }, void 0, false, {
+                                        fileName: "src/components/about-view/about-view.jsx",
+                                        lineNumber: 130,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                        children: "Lorem Ipsum"
+                                    }, void 0, false, {
+                                        fileName: "src/components/about-view/about-view.jsx",
+                                        lineNumber: 131,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Figure), {
+                                        className: "figure-wrapper",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Figure).Image, {
+                                            src: (0, _personPlaceholderPngDefault.default),
+                                            className: "staff-img",
+                                            alt: "staff member"
+                                        }, void 0, false, {
+                                            fileName: "src/components/about-view/about-view.jsx",
+                                            lineNumber: 134,
+                                            columnNumber: 29
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "src/components/about-view/about-view.jsx",
+                                        lineNumber: 133,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "staff-desc",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                            children: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                                        }, void 0, false, {
+                                            fileName: "src/components/about-view/about-view.jsx",
+                                            lineNumber: 142,
+                                            columnNumber: 29
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "src/components/about-view/about-view.jsx",
+                                        lineNumber: 141,
+                                        columnNumber: 25
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/about-view/about-view.jsx",
+                                lineNumber: 129,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "staff-item",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                                        children: "Lorem Ipsum"
+                                    }, void 0, false, {
+                                        fileName: "src/components/about-view/about-view.jsx",
+                                        lineNumber: 147,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                        children: "Lorem Ipsum"
+                                    }, void 0, false, {
+                                        fileName: "src/components/about-view/about-view.jsx",
+                                        lineNumber: 148,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Figure), {
+                                        className: "figure-wrapper",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Figure).Image, {
+                                            src: (0, _personPlaceholderPngDefault.default),
+                                            className: "staff-img",
+                                            alt: "staff member"
+                                        }, void 0, false, {
+                                            fileName: "src/components/about-view/about-view.jsx",
+                                            lineNumber: 151,
+                                            columnNumber: 29
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "src/components/about-view/about-view.jsx",
+                                        lineNumber: 150,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "staff-desc",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                            children: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                                        }, void 0, false, {
+                                            fileName: "src/components/about-view/about-view.jsx",
+                                            lineNumber: 159,
+                                            columnNumber: 29
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "src/components/about-view/about-view.jsx",
+                                        lineNumber: 158,
+                                        columnNumber: 25
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/about-view/about-view.jsx",
+                                lineNumber: 146,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "staff-item",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                                        children: "Lorem Ipsum"
+                                    }, void 0, false, {
+                                        fileName: "src/components/about-view/about-view.jsx",
+                                        lineNumber: 164,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                        children: "Lorem Ipsum"
+                                    }, void 0, false, {
+                                        fileName: "src/components/about-view/about-view.jsx",
+                                        lineNumber: 165,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Figure), {
+                                        className: "figure-wrapper",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Figure).Image, {
+                                            src: (0, _personPlaceholderPngDefault.default),
+                                            className: "staff-img",
+                                            alt: "staff member"
+                                        }, void 0, false, {
+                                            fileName: "src/components/about-view/about-view.jsx",
+                                            lineNumber: 168,
+                                            columnNumber: 29
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "src/components/about-view/about-view.jsx",
+                                        lineNumber: 167,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "staff-desc",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                            children: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                                        }, void 0, false, {
+                                            fileName: "src/components/about-view/about-view.jsx",
+                                            lineNumber: 176,
+                                            columnNumber: 29
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "src/components/about-view/about-view.jsx",
+                                        lineNumber: 175,
+                                        columnNumber: 25
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/about-view/about-view.jsx",
+                                lineNumber: 163,
                                 columnNumber: 21
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/about-view/about-view.jsx",
-                        lineNumber: 46,
+                        lineNumber: 60,
                         columnNumber: 17
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/about-view/about-view.jsx",
-                lineNumber: 43,
+                lineNumber: 57,
                 columnNumber: 13
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/components/about-view/about-view.jsx",
-        lineNumber: 4,
+        lineNumber: 8,
         columnNumber: 9
     }, undefined);
 };
@@ -43348,6 +43874,9 @@ $RefreshReg$(_c, "AboutView");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","react/jsx-dev-runtime":"iTorj","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"lJZlQ":[function() {},{}],"i5LP7":[function() {},{}]},["11jlt","gjUm6","1xC6H","d8Dch"], "d8Dch", "parcelRequireb024")
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","react/jsx-dev-runtime":"iTorj","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react-bootstrap":"3AD9A","../../../files/img/person-placeholder.png":"fsTOh"}],"fsTOh":[function(require,module,exports) {
+module.exports = require("74a58dc2dcce455c").getBundleURL("byUka") + "person-placeholder.f2cf4209.png" + "?" + Date.now();
+
+},{"74a58dc2dcce455c":"lgJ39"}],"lJZlQ":[function() {},{}],"i5LP7":[function() {},{}]},["11jlt","gjUm6","1xC6H","d8Dch"], "d8Dch", "parcelRequireb024")
 
 //# sourceMappingURL=index.b4b6dfad.js.map

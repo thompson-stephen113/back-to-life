@@ -4,14 +4,9 @@
     top: 0;
     width: 100%;
     z-index: 1030;
-    background-color: #f8f9fa;
     display: flex;
     align-items: center;
-}
-
-// Adds margin to top of page contents
-.page-content {
-    margin-top: 80px;
+    border-bottom: 1px solid gray;
 }
 
 // Pushes nav links to right of logo
@@ -23,14 +18,21 @@
 
 // Adjusts logo size
 .navbar-brand, .figure img {
+    margin: 0;
     height: 50px;
     width: auto;
 }
 
 // Customizes link appearance
 .nav-link {
+    font-family: "Open Sans", arial, sans-serif;
     padding: 0 15px;
     font-size: 1.1rem;
+
+    &:hover {
+        color: gray !important;
+        text-decoration: underline;
+    }
 }
 
 // Transitions navbar collapse
@@ -45,4 +47,26 @@
 // Customizes toggler icon appearance
 .navbar-toggler-icon {
     color: #fff;
+}
+
+// Customizes business name button
+.business-name {
+    font-family: "Playfair Display", Georgia, serif;
+    margin: auto 5px;
+    padding: 10px;
+    background-color: rgb(255, 255, 240);
+    border: 2px solid black;
+}
+
+// Customizes phone link
+.phone-link {
+    font-family: "Open Sans", arial, sans-serif;
+    margin: auto 15px;
+}
+
+/* ---------------------------------- Media Queries ---------------------------------- */
+@media all and (max-width: 1475px) {
+    .phone-link {
+        display: none;
+    }
 }
